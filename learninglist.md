@@ -1,0 +1,9 @@
+- const vs let vs var in js/ts and the language paradigms behind them
+- complete model of how svelte works
+- those relative path $param things
+- app navigation module in svelte
+- what kind of modules get added in sveltekit?
+- what are modules vs require??
+- why do some things get imported with {} and some not
+- what is the optimal sveltekit folder structure
+- load functions, page.load??

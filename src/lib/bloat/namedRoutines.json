@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Triff/Triple Back",
+    "skills": ["12--1o", "12---o"]
+  },
+  {
+    "name": "Triff/Martini",
+    "skills": ["12--1o", "122--o"]
+  },
+  {
+    "name": "Triff/Seifert",
+    "skills": ["12--1o", "122--<"]
+  },
+  {
+    "name": "Triff/Half-Triff",
+    "skills": ["12--1o", "121-1o"]
+  },
+  {
+    "name": "Pike Triff/Pike Triple Back",
+    "skills": ["12--1<", "12---<"]
+  },
+  {
+    "name": "Triff/Quad",
+    "skills": ["12--1o", "16----o"]
+  },
+  {
+    "name": "Canadian Special",
+    "skills": ["12--1o", "844/"]
+  },
+  {
+    "name": "Portuguese Hammer",
+    "skills": ["12--1<", "844/"]
+  },
+  {
+    "name": "Russian Special",
+    "skills": ["825/", "822/"]
+  },
+  {
+    "name": "Russian Special+",
+    "skills": ["825/", "833/"]
+  },
+  {
+    "name": "Russian Tornado",
+    "skills": ["825/", "844/"]
+  },
+  {
+    "name": "Zalomixer",
+    "skills": ["823/", "844/"]
+  },
+  {
+    "name": "The White",
+    "skills": ["12--1<", "121-1<"]
+  },
+  {
+    "name": "The Samsonov",
+    "skills": ["81-<", "122--o"]
+  },
+  {
+    "name": "Perez Special+",
+    "skills": ["823/", "12---<"]
+  },
+  {
+    "name": "The Nacey Deluxe",
+    "skills": ["823/", "121-1o"]
+  },
+  {
+    "name": "Pike Triff/Seifert",
+    "skills": ["12--1<", "122--<"]
+  },
+  {
+    "name": "The Tretyakov",
+    "skills": ["12--1<", "122--o"]
+  },
+  {
+    "name": "The Portuguese Special",
+    "skills": ["12--1o", "833/"]
+  },
+  {
+    "name": "The Air Force 1",
+    "skills": ["823/", "12---o"]
+  },
+  {
+    "name": "Perez Extravaganza",
+    "skills": ["823/", "122--o"]
+  },
+  {
+    "name": "Triff/Full-full-in",
+    "skills": ["12--1o", "1222-o"]
+  },
+  {
+    "name": "Mexican Special",
+    "skills": ["12--1o", "834/"]
+  },
+  {
+    "name": "Full-Rudi/Miller",
+    "skills": ["823/", "833/"]
+  },
+  {
+    "name": "Bulgarian Special",
+    "skills": ["821/", "844/"]
+  },
+  {
+    "name": "Tuck Triff/Pike Triple Back",
+    "skills": ["12--1o", "12---<"]
+  },
+  {
+    "name": "The De Wolff",
+    "skills": ["821/", "122--o"]
+  },
+  {
+    "name": "The Renkert Deluxe",
+    "skills": ["821o", "122--o"]
+  },
+  {
+    "name": "The Big Katz",
+    "skills": ["821o", "121-1o"]
+  },
+  {
+    "name": "The Perez Special",
+    "skills": ["821/", "12---<"]
+  },
+  {
+    "name": "The Renkert Special",
+    "skills": ["821<", "12---<"]
+  },
+  {
+    "name": "The Calgary Stampede",
+    "skills": ["821o", "12---<"]
+  },
+  {
+    "name": "The Rachev Classic",
+    "skills": ["8-3<", "12---<"]
+  },
+  {
+    "name": "The White v1",
+    "skills": ["12--1<", "121-1o"]
+  },
+  {
+    "name": "The Atkins",
+    "skills": ["8-1/", "12---<"]
+  }
+]

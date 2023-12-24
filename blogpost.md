@@ -1,0 +1,3 @@
+- treating calc.js as a black box and writing around it
+- deciding to wait to implement the nice bits thing - if it's not broken, don't fix it
+- philosophy: calculting data in the head component and then passing it down into the children instead of calculating it in the children

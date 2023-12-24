@@ -1,0 +1,68 @@
+<script>
+  import { skillDB } from "../../../stores";
+  import { currentEvent } from "../../../stores";
+
+  import { findVideoSkill } from "$lib/bloat/findVideo";
+
+  import SameDDGrid from "$lib/components/SkillGrid.svelte";
+  import NotableRoutinesGrid from "$lib/components/RoutineGrid.svelte";
+  import SkillTitleSection from "$lib/components/SkillTitleSection.svelte";
+  import VideoDisplay from "$lib/components/VideoDisplay.svelte";
+
+  export let data;
+  $: skillData = $skillDB.generateSkill(
+    decodeURIComponent(data.skill),
+    $currentEvent
+  );
+  // TODO: make all these depend on event
+  $: videos = findVideoSkill(skillData.FIG, $currentEvent);
+  $: namedRoutines = $skillDB.getNamedRoutines(skillData.FIG, $currentEvent);
+  $: sameDD = $skillDB.getSkillsByDD(skillData.doubleMiniDD, $currentEvent);
+</script>
+
+<!-- Title Section -->
+
+<section>
+  <SkillTitleSection {skillData} currentEvent={$currentEvent}
+  ></SkillTitleSection>
+</section>
+
+<!-- Videos Section -->
+
+{#if videos}
+  <section>
+    <VideoDisplay {videos}></VideoDisplay>
+  </section>
+{/if}
+
+<!-- Same DD Section -->
+
+{#if sameDD}
+  <section>
+    <h2>Same DD</h2>
+    <SameDDGrid
+      skillData={sameDD.filter(
+        (skill) => skill.type === "regular" && skill.dominant
+      )}
+    ></SameDDGrid>
+  </section>
+{/if}
+
+<!-- named routine section -->
+
+{#if namedRoutines.length > 0}
+  <section>
+    <h2>Notable Routines</h2>
+    <NotableRoutinesGrid routineData={namedRoutines}></NotableRoutinesGrid>
+  </section>
+{/if}
+
+<style>
+  section {
+    margin-bottom: 30px;
+  }
+
+  section > h2 {
+    margin-bottom: 15px;
+  }
+</style>
