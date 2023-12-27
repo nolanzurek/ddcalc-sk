@@ -93,6 +93,16 @@ export type RoutineVideo = {
   score: string;
 };
 
+export type SkillVideo = {
+  id: string;
+  last_name: string;
+  first_name: string;
+  country: string;
+  gender: string;
+  skill: string;
+  direction: string;
+};
+
 // TODO: this name sucks
 // export type DisplayDataType = Skill | Routine | RoutineSet
 
