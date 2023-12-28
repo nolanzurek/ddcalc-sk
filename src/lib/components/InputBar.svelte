@@ -47,6 +47,10 @@
     }}
     labelText="Skill or Routine"
     placeholder="Enter a skill or routine here"
+    autocorrect="off"
+    autocomplete="off"
+    autocapitalize="off"
+    spellcheck="false"
     bind:value={input}
   />
   <Dropdown
