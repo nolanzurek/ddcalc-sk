@@ -35,13 +35,17 @@ export default class skillDB {
     // load in the data here
   }
 
-  getInfo(input: string, event: Event) {
+  getInfo(
+    input: string,
+    event: Event,
+    direction: Direction | undefined = undefined
+  ) {
     input = input.trim();
     // TODO: if abstracted the input splitting, call that function
     const inputType = getInputType(input);
     switch (inputType) {
       case InputType.Skill:
-        return this.generateSkill(input, event);
+        return this.generateSkill(input, event, direction);
       case InputType.Routine:
         return this.generateRoutine(input.split(" "), event);
       case InputType.RoutineSet:
@@ -52,7 +56,11 @@ export default class skillDB {
     }
   }
 
-  generateSkill(input: string, event: Event = Event.DoubleMini): Skill {
+  generateSkill(
+    input: string,
+    event: Event = Event.DoubleMini,
+    direction: Direction | undefined = undefined
+  ): Skill {
     // TODO: re-implement this method so that it refers to the raw data
     let tumInput = input;
     // guard statement for tumbling FIG format
@@ -81,10 +89,17 @@ export default class skillDB {
     }
 
     // if the skill is a named skill (which is most likely is), retrieve it from the "database"
-    const namedSkill = skillDB.data.find((el) => el.FIG === input);
+    const namedSkills = skillDB.data.filter((el) => el.FIG === input);
 
-    if (namedSkill) {
-      return namedSkill;
+    if (namedSkills.length === 1) {
+      return namedSkills[0];
+    }
+
+    if (namedSkills.length === 2) {
+      if (direction === undefined) {
+        return namedSkills[0];
+      }
+      return namedSkills.find((el) => el.direction === direction) as Skill;
     }
 
     // otherwise, we must calculate the skill manually using the legacy calc.js code

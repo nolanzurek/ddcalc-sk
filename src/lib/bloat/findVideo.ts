@@ -1,11 +1,17 @@
 import worlds_2022_dmt from "./Worlds_2022_DMT_routines.json";
 import training_dmt from "./training_dmt.json";
-import { Event } from "$lib/types/enums";
+import { Event, Direction } from "$lib/types/enums";
 import type { RoutineVideo, SkillVideo } from "$lib/types/types";
 
-export function findVideoSkill(input: String, event: Event): SkillVideo[] {
+export function findVideoSkill(
+  input: String,
+  event: Event,
+  direction: Direction
+): SkillVideo[] {
   if (event === Event.DoubleMini) {
-    return training_dmt.filter((el) => el.skill === input.trim());
+    return training_dmt.filter(
+      (el) => el.skill === input.trim() && el.direction === direction
+    );
   }
   return [];
 }

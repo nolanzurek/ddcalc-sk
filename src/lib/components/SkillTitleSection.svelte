@@ -1,12 +1,14 @@
 <script lang="ts">
-  import { Tag } from "carbon-components-svelte";
-  import type { Event } from "$lib/types/enums";
+  import { Tag , Dropdown } from "carbon-components-svelte";
+  import { Direction, type Event } from "$lib/types/enums";
   import getDDByEvent from "../../../src/lib/functions/util/getDDByEvent";
   import shapeEnumToText from "$lib/functions/util/shapeEnumToText";
   import type { Skill } from "$lib/types/types";
 
   export let skillData: Skill;
   export let currentEvent: Event;
+
+  export let currentDirection: Direction = skillData.direction;
 </script>
 
 <!-- TODO: abstract all of the ternaries into functions -->
@@ -16,9 +18,12 @@
     {getDDByEvent(skillData, currentEvent)?.toFixed(1)}
   </div>
   <div id="titleAndTags">
-    <h1><strong>{skillData.name}</strong></h1>
+    <div id="titleAndDirectionDropdown">
+      <h1><strong>{skillData.name}</strong></h1>
+      <Dropdown bind:selectedId={currentDirection} items={[{id: Direction.Forward, text: "Forward"}, {id: Direction.Backward, text: "Backward"}]}
+      type="inline" />
+    </div>
     <h2><strong>{skillData.FIG}</strong></h2>
-
     <div id="tags">
       <Tag style="font-size: 15px">{shapeEnumToText(skillData.shape)}</Tag>
       <Tag style="font-size: 15px">
@@ -58,6 +63,13 @@
     font-size: 55px;
     font-weight: bold;
     color: var(--cds-ui-background);
+  }
+
+  #titleAndDirectionDropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
   }
 
   @media (max-width: 600px) {

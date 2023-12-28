@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { skillDB } from "../../../stores";
   import { currentEvent } from "../../../stores";
 
@@ -9,13 +9,17 @@
   import SkillTitleSection from "$lib/components/SkillTitleSection.svelte";
   import VideoDisplay from "$lib/components/VideoDisplay.svelte";
 
+  import type { Direction } from "$lib/types/enums";
+
   export let data;
+  let currentDirection: Direction;
   $: skillData = $skillDB.generateSkill(
     decodeURIComponent(data.skill),
-    $currentEvent
+    $currentEvent,
+    currentDirection
   );
   // TODO: make all these depend on event
-  $: videos = findVideoSkill(skillData.FIG, $currentEvent);
+  $: videos = findVideoSkill(skillData.FIG, $currentEvent, currentDirection);
   $: namedRoutines = $skillDB.getNamedRoutines(skillData.FIG, $currentEvent);
   $: sameDD = $skillDB.getSkillsByDD(skillData.DD[$currentEvent], $currentEvent).filter(
         (skill) => skill.normal && skill.dominant
@@ -31,7 +35,7 @@
 <!-- Title Section -->
 
 <section>
-  <SkillTitleSection {skillData} currentEvent={$currentEvent}
+  <SkillTitleSection {skillData} currentEvent={$currentEvent} bind:currentDirection={currentDirection}
   ></SkillTitleSection>
 </section>
 
