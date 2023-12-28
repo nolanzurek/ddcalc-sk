@@ -3,16 +3,16 @@
 
   export let skillData: {
     name: string;
-    FIGString: string;
+    FIG: string;
   }[];
 </script>
 
 <TileGrid
   data={Object.values(skillData).map((el) => {
     return {
-      title: el.FIGString,
+      title: el.FIG,
       subtitle: el.name,
-      link: `/skill/${encodeURIComponent(el.FIGString)}`,
+      link: `/skill/${encodeURIComponent(el.FIG)}`,
     };
   })}
 ></TileGrid>

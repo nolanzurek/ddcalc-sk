@@ -42,6 +42,8 @@
 - coordinate all the weird types used for display and whatever routines, seems like there's random types everywhere and nothing is super consistant
 - "FIG name" for routine other than joining everything everywhere
 - link forward/backward/blind input thing to the skill lookup so that the right video gets displayed
+- add things to .d.ts so that they are available everywhere
+- bug: clicking on "same dd" cards in tumbling mode forces input with non-tumbling fig strings
 
 ## OLD
 

@@ -4,10 +4,10 @@ import type { Skill, Routine } from "$lib/types/types";
 export default function getDDByEvent(skill: Skill | Routine, event: Event) {
   switch (event) {
     case Event.Trampoline:
-      return skill.trampolineDD;
+      return skill.DD.TRI;
     case Event.DoubleMini:
-      return skill.doubleMiniDD;
+      return skill.DD.DMT;
     case Event.Tumbling:
-      return skill.tumblingDD;
+      return skill.DD.TUM;
   }
 }

@@ -1,15 +1,32 @@
-import type { Skill, Routine, RoutineSet, RawSkillData } from "../types/types";
+import type { Skill, Routine, RoutineSet } from "../types/types";
 import { InputType, Shape, Direction, Event } from "../types/enums";
 import { getInputType } from "../functions/util/getInputType";
 
 import SkillBloat from "../bloat/calc";
 import namedRoutines from "../bloat/namedRoutines.json";
-import skills_dmt from "../bloat/skills_dmt.json";
+import skills from "../bloat/skills.json";
 
 export default class skillDB {
   // data import from file
-  static data: RawSkillData = [];
+  // take skills and all of the "shape" fields should be converted to enums
+  static data: Skill[] = skills.map((el) => {
+    return {
+      ...el,
+      shape:
+        el.shape === "o"
+          ? Shape.Tuck
+          : el.shape === "<"
+          ? Shape.Pike
+          : el.shape === "/"
+          ? Shape.Layout
+          : Shape.NotApplicable,
+      direction:
+        el.direction === "backward" ? Direction.Backward : Direction.Forward,
+    };
+  });
   // cache for objects
+  // is this necessary? doesn't the browser cache the objects?
+  // THIS is why I took cmput 229
   static cache: Map<string, Skill>;
 
   constructor() {
@@ -63,6 +80,15 @@ export default class skillDB {
       return skillDB.cache.get(input) as Skill;
     }
 
+    // if the skill is a named skill (which is most likely is), retrieve it from the "database"
+    const namedSkill = skillDB.data.find((el) => el.FIG === input);
+
+    if (namedSkill) {
+      return namedSkill;
+    }
+
+    // otherwise, we must calculate the skill manually using the legacy calc.js code
+
     const triSkill = new SkillBloat(input, "TRI");
     const dmtSkill = new SkillBloat(input, "DMT");
     const tumSkill = new SkillBloat(tumInput, "TUM");
@@ -70,9 +96,11 @@ export default class skillDB {
     const skillFromInput = {
       name: triSkill.name,
 
-      trampolineDD: triSkill.DD,
-      doubleMiniDD: dmtSkill.DD,
-      tumblingDD: tumSkill.DD,
+      DD: {
+        TRI: triSkill.DD,
+        DMT: dmtSkill.DD,
+        TUM: tumSkill.DD,
+      },
 
       FIG: input,
       // this is flat out wrong, but TODO implement a function for getting the tumbling string from the regular one
@@ -94,6 +122,9 @@ export default class skillDB {
 
       direction: triSkill.backward ? Direction.Backward : Direction.Forward,
       blind: triSkill.getBlindness() ? true : false,
+
+      dominant: false,
+      normal: false,
     };
 
     // add the skill to the cache
@@ -114,9 +145,11 @@ export default class skillDB {
       // TODO: use the naming function for this
       name: skills.map((el) => el.name).join(" "),
 
-      trampolineDD: skills.map((el) => el.trampolineDD).reduce((a, b) => a + b),
-      doubleMiniDD: skills.map((el) => el.doubleMiniDD).reduce((a, b) => a + b),
-      tumblingDD: skills.map((el) => el.tumblingDD).reduce((a, b) => a + b),
+      DD: {
+        TRI: skills.map((el) => el.DD.TRI).reduce((a, b) => a + b),
+        DMT: skills.map((el) => el.DD.DMT).reduce((a, b) => a + b),
+        TUM: skills.map((el) => el.DD.TUM).reduce((a, b) => a + b),
+      },
 
       totalTwists: skills.map((el) => el.twists).reduce((a, b) => a + b),
       totalFlips: skills.map((el) => el.flips).reduce((a, b) => a + b),
@@ -132,27 +165,23 @@ export default class skillDB {
     );
 
     return {
-      totalTrampolineDD: routines
-        .map((routine) => routine.trampolineDD)
-        .reduce((a, b) => a + b),
-      totalDoubleMiniDD: routines
-        .map((routine) => routine.doubleMiniDD)
-        .reduce((a, b) => a + b),
-      totalTumblingDD: routines
-        .map((routine) => routine.tumblingDD)
-        .reduce((a, b) => a + b),
+      totalDD: {
+        TRI: routines.map((routine) => routine.DD.TRI).reduce((a, b) => a + b),
+        DMT: routines.map((routine) => routine.DD.DMT).reduce((a, b) => a + b),
+        TUM: routines.map((routine) => routine.DD.TUM).reduce((a, b) => a + b),
+      },
 
-      averageTrampolineDD:
-        routines
-          .map((routine) => routine.trampolineDD)
-          .reduce((a, b) => a + b) / routines.length,
-      averageDoubleMiniDD:
-        routines
-          .map((routine) => routine.doubleMiniDD)
-          .reduce((a, b) => a + b) / routines.length,
-      averageTumblingDD:
-        routines.map((routine) => routine.tumblingDD).reduce((a, b) => a + b) /
-        routines.length,
+      averageDD: {
+        TRI:
+          routines.map((routine) => routine.DD.TRI).reduce((a, b) => a + b) /
+          routines.length,
+        DMT:
+          routines.map((routine) => routine.DD.DMT).reduce((a, b) => a + b) /
+          routines.length,
+        TUM:
+          routines.map((routine) => routine.DD.TUM).reduce((a, b) => a + b) /
+          routines.length,
+      },
 
       numRoutines: routines.length,
       routines: routines,
@@ -172,12 +201,7 @@ export default class skillDB {
   // depends on the event
 
   getSkillsByDD(dd: number, event: Event) {
-    switch (event) {
-      case Event.DoubleMini:
-        return skills_dmt.filter((el) => el.dd === dd);
-      default:
-        return null;
-    }
+    return skillDB.data.filter((el) => el.DD[event] === dd);
   }
 
   // finds every possible routine that has the same dd as the input
@@ -194,52 +218,41 @@ export default class skillDB {
     name: string;
     skills: string[];
   }[] {
-    switch (event) {
-      case Event.DoubleMini:
-        const forwardSkills = skills_dmt.filter(
-          (el) =>
-            !el.blind &&
-            el.direction === "forward" &&
-            el.dominant &&
-            el.type === "regular"
-        );
+    const forwardSkills = skillDB.data.filter(
+      (el) => !el.blind && el.direction === Direction.Forward && el.dominant
+    );
 
-        const backwardSkills = skills_dmt.filter(
-          (el) =>
-            el.direction === "backward" && el.dominant && el.type === "regular"
-        );
+    const backwardSkills = skillDB.data.filter(
+      (el) => el.direction === Direction.Backward && el.dominant
+    );
 
-        let result: {
-          name: string;
-          skills: string[];
-          ddDifference?: number;
-        }[] = [];
+    let result: {
+      name: string;
+      skills: string[];
+      ddDifference?: number;
+    }[] = [];
 
-        forwardSkills.forEach((forwardSkill) => {
-          backwardSkills.forEach((backwardSkill) => {
-            if (forwardSkill.dd + backwardSkill.dd === dd) {
-              result.push({
-                name: `${forwardSkill.name} ${backwardSkill.name}`,
-                skills: [forwardSkill.FIGString, backwardSkill.FIGString],
-                ddDifference: Math.abs(forwardSkill.dd - backwardSkill.dd),
-              });
-            }
+    forwardSkills.forEach((forwardSkill) => {
+      backwardSkills.forEach((backwardSkill) => {
+        if (forwardSkill.DD[event] + backwardSkill.DD[event] === dd) {
+          result.push({
+            name: `${forwardSkill.name} ${backwardSkill.name}`,
+            skills: [forwardSkill.FIG, backwardSkill.FIG],
+            ddDifference: Math.abs(
+              forwardSkill.DD[event] - backwardSkill.DD[event]
+            ),
           });
-        });
-        // sort by dd difference low to high
-        return result
-          .sort(
-            (a, b) => (a.ddDifference as number) - (b.ddDifference as number)
-          )
-          .map((el) => {
-            return {
-              name: el.name,
-              skills: el.skills,
-            };
-          });
-
-      default:
-        return [];
-    }
+        }
+      });
+    });
+    // sort by dd difference low to high
+    return result
+      .sort((a, b) => (a.ddDifference as number) - (b.ddDifference as number))
+      .map((el) => {
+        return {
+          name: el.name,
+          skills: el.skills,
+        };
+      });
   }
 }

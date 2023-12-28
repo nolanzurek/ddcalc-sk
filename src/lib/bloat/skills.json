@@ -1,0 +1,5816 @@
+[
+  {
+    "name": "Back tuck",
+    "DD": {
+      "TRI": 0.5,
+      "DMT": 0.5,
+      "TUM": 0.5
+    },
+    "FIG": "4-o",
+    "FIGTumbling": "-o",
+    "shape": "o",
+    "flips": 1,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front tuck",
+    "DD": {
+      "TRI": 0.5,
+      "DMT": 0.5,
+      "TUM": 0.5
+    },
+    "FIG": "4-o",
+    "FIGTumbling": ".-o",
+    "shape": "o",
+    "flips": 1,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Back pike",
+    "DD": {
+      "TRI": 0.6,
+      "DMT": 0.6,
+      "TUM": 0.6
+    },
+    "FIG": "4-<",
+    "FIGTumbling": "-<",
+    "shape": "<",
+    "flips": 1,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front pike",
+    "DD": {
+      "TRI": 0.6,
+      "DMT": 0.6,
+      "TUM": 0.6
+    },
+    "FIG": "4-<",
+    "FIGTumbling": ".-<",
+    "shape": "<",
+    "flips": 1,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Back straight",
+    "DD": {
+      "TRI": 0.6,
+      "DMT": 0.6,
+      "TUM": 0.6
+    },
+    "FIG": "4-/",
+    "FIGTumbling": "-/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front straight",
+    "DD": {
+      "TRI": 0.6,
+      "DMT": 0.6,
+      "TUM": 0.6
+    },
+    "FIG": "4-/",
+    "FIGTumbling": ".-/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Barani tuck",
+    "DD": {
+      "TRI": 0.6,
+      "DMT": 0.7,
+      "TUM": 0.7
+    },
+    "FIG": "41o",
+    "FIGTumbling": ".1o",
+    "shape": "o",
+    "flips": 1,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Barani pike",
+    "DD": {
+      "TRI": 0.6,
+      "DMT": 0.7,
+      "TUM": 0.7
+    },
+    "FIG": "41<",
+    "FIGTumbling": ".1<",
+    "shape": "<",
+    "flips": 1,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Barani straight",
+    "DD": {
+      "TRI": 0.6,
+      "DMT": 0.7,
+      "TUM": 0.7
+    },
+    "FIG": "41/",
+    "FIGTumbling": ".1/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Back half",
+    "DD": {
+      "TRI": 0.6,
+      "DMT": 0.7,
+      "TUM": 0.7
+    },
+    "FIG": "41/",
+    "FIGTumbling": "1/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Back Full",
+    "DD": {
+      "TRI": 0.7,
+      "DMT": 0.9,
+      "TUM": 0.9
+    },
+    "FIG": "42/",
+    "FIGTumbling": "2/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front Full",
+    "DD": {
+      "TRI": 0.7,
+      "DMT": 0.9,
+      "TUM": 0.9
+    },
+    "FIG": "42/",
+    "FIGTumbling": ".2/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Rudi",
+    "DD": {
+      "TRI": 0.8,
+      "DMT": 1.2,
+      "TUM": 1.1
+    },
+    "FIG": "43/",
+    "FIGTumbling": ".3/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Back 3/2",
+    "DD": {
+      "TRI": 0.8,
+      "DMT": 1.2,
+      "TUM": 1.1
+    },
+    "FIG": "43/",
+    "FIGTumbling": "3/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Double Full",
+    "DD": {
+      "TRI": 0.9,
+      "DMT": 1.5,
+      "TUM": 1.3
+    },
+    "FIG": "44/",
+    "FIGTumbling": "4/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Double front full",
+    "DD": {
+      "TRI": 0.9,
+      "DMT": 1.5,
+      "TUM": 1.3
+    },
+    "FIG": "44/",
+    "FIGTumbling": ".4/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 2,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Randi",
+    "DD": {
+      "TRI": 1,
+      "DMT": 1.9,
+      "TUM": 1.6
+    },
+    "FIG": "45/",
+    "FIGTumbling": ".5/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Back 5/2",
+    "DD": {
+      "TRI": 1,
+      "DMT": 1.9,
+      "TUM": 1.6
+    },
+    "FIG": "45/",
+    "FIGTumbling": "5/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Triple Full",
+    "DD": {
+      "TRI": 1.1,
+      "DMT": 2.3,
+      "TUM": 1.9
+    },
+    "FIG": "46/",
+    "FIGTumbling": "6/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triple front Full",
+    "DD": {
+      "TRI": 1.1,
+      "DMT": 2.3,
+      "TUM": 1.9
+    },
+    "FIG": "46/",
+    "FIGTumbling": ".6/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Addy",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.8,
+      "TUM": 2.3
+    },
+    "FIG": "47/",
+    "FIGTumbling": ".7/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Back 7/2",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.8,
+      "TUM": 2.3
+    },
+    "FIG": "47/",
+    "FIGTumbling": "7/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Quadruple Full",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.3,
+      "TUM": 2.7
+    },
+    "FIG": "48/",
+    "FIGTumbling": "8/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Quadruple front full",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.3,
+      "TUM": 2.7
+    },
+    "FIG": "48/",
+    "FIGTumbling": ".8/",
+    "shape": "/",
+    "flips": 1,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Double tuck",
+    "DD": {
+      "TRI": 1,
+      "DMT": 2,
+      "TUM": 2
+    },
+    "FIG": "8--o",
+    "FIGTumbling": "--o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Double front tuck",
+    "DD": {
+      "TRI": 1,
+      "DMT": 2,
+      "TUM": 2
+    },
+    "FIG": "8--o",
+    "FIGTumbling": ".--o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Double pike",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.4,
+      "TUM": 2.2
+    },
+    "FIG": "8--<",
+    "FIGTumbling": "--<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Double front pike",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.4,
+      "TUM": 2.2
+    },
+    "FIG": "8--<",
+    "FIGTumbling": ".--<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Double layout",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "8--/",
+    "FIGTumbling": "--/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Double front straight",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "8--/",
+    "FIGTumbling": ".--/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-in tuck",
+    "DD": {
+      "TRI": 1.1,
+      "DMT": 2.4,
+      "TUM": 2.2
+    },
+    "FIG": "81-o",
+    "FIGTumbling": ".1-o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Arabian Double Front tuck",
+    "DD": {
+      "TRI": 1.1,
+      "DMT": 2.4,
+      "TUM": 2.2
+    },
+    "FIG": "81-o",
+    "FIGTumbling": "1-o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-in pike",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "81-<",
+    "FIGTumbling": ".1-<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Arabian Double Front pike",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "81-<",
+    "FIGTumbling": "1-<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-in straight",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.6
+    },
+    "FIG": "81-/",
+    "FIGTumbling": ".1-/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Arabian Double Front straight",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.6
+    },
+    "FIG": "81-/",
+    "FIGTumbling": "1-/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-out tuck",
+    "DD": {
+      "TRI": 1.1,
+      "DMT": 2.4,
+      "TUM": 2.2
+    },
+    "FIG": "8-1o",
+    "FIGTumbling": ".-1o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Biles I tuck",
+    "DD": {
+      "TRI": 1.1,
+      "DMT": 2.4,
+      "TUM": 2.2
+    },
+    "FIG": "8-1o",
+    "FIGTumbling": "-1o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Half-out pike",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "8-1<",
+    "FIGTumbling": ".-1<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Biles I pike",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "8-1<",
+    "FIGTumbling": "-1<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Half-out straight",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.6
+    },
+    "FIG": "8-1/",
+    "FIGTumbling": ".-1/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Biles I",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.6
+    },
+    "FIG": "8-1/",
+    "FIGTumbling": "-1/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-in tuck",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "82-o",
+    "FIGTumbling": "2-o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front full-in tuck",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "82-o",
+    "FIGTumbling": ".2-o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-in pike",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.2,
+      "TUM": 2.6
+    },
+    "FIG": "82-<",
+    "FIGTumbling": "2-<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front full-in pike",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.2,
+      "TUM": 2.6
+    },
+    "FIG": "82-<",
+    "FIGTumbling": ".2-<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-in straight",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 2.8
+    },
+    "FIG": "82-/",
+    "FIGTumbling": "2-/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front full-in straight",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 2.8
+    },
+    "FIG": "82-/",
+    "FIGTumbling": ".2-/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-out tuck",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "8-2o",
+    "FIGTumbling": "-2o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front full-out tuck",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "8-2o",
+    "FIGTumbling": ".-2o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-out pike",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.2,
+      "TUM": 2.6
+    },
+    "FIG": "8-2<",
+    "FIGTumbling": "-2<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front full-out pike",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.2,
+      "TUM": 2.6
+    },
+    "FIG": "8-2<",
+    "FIGTumbling": ".-2<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-out straight",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 2.8
+    },
+    "FIG": "8-2/",
+    "FIGTumbling": "-2/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front full-out straight",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 2.8
+    },
+    "FIG": "8-2/",
+    "FIGTumbling": ".-2/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-half tuck",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.8
+    },
+    "FIG": "821o",
+    "FIGTumbling": ".21o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in Half-out tuck",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.8
+    },
+    "FIG": "821o",
+    "FIGTumbling": "21o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-half pike",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 3.6,
+      "TUM": 3
+    },
+    "FIG": "821<",
+    "FIGTumbling": ".21<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in Half-out pike",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 3.6,
+      "TUM": 3
+    },
+    "FIG": "821<",
+    "FIGTumbling": "21<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-half straight",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.2
+    },
+    "FIG": "821/",
+    "FIGTumbling": ".21/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in Half-out straight",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.2
+    },
+    "FIG": "821/",
+    "FIGTumbling": "21/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Half-full tuck",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.8
+    },
+    "FIG": "812o",
+    "FIGTumbling": ".12o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Half-full tuck",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.8
+    },
+    "FIG": "812o",
+    "FIGTumbling": "12o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-full pike",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 3.6,
+      "TUM": 3
+    },
+    "FIG": "812<",
+    "FIGTumbling": ".12<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Half-full pike",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 3.6,
+      "TUM": 3
+    },
+    "FIG": "812<",
+    "FIGTumbling": "12<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-full straight",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.2
+    },
+    "FIG": "812/",
+    "FIGTumbling": ".12/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Half-full straight",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.2
+    },
+    "FIG": "812/",
+    "FIGTumbling": "12/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-half tuck",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "811o",
+    "FIGTumbling": "11o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front half-half tuck",
+    "DD": {
+      "TRI": 1.2,
+      "DMT": 2.8,
+      "TUM": 2.4
+    },
+    "FIG": "811o",
+    "FIGTumbling": ".11o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Half-half pike",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.2,
+      "TUM": 2.6
+    },
+    "FIG": "811<",
+    "FIGTumbling": "11<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front half-half pike",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.2,
+      "TUM": 2.6
+    },
+    "FIG": "811<",
+    "FIGTumbling": ".11<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Half-half straight",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 2.8
+    },
+    "FIG": "811/",
+    "FIGTumbling": "11/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front half-half straight",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 2.8
+    },
+    "FIG": "811/",
+    "FIGTumbling": ".11/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-Full tuck",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 3.2
+    },
+    "FIG": "822o",
+    "FIGTumbling": "22o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front full-full tuck",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 3.2
+    },
+    "FIG": "822o",
+    "FIGTumbling": ".22o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-Full pike",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4,
+      "TUM": 3.4
+    },
+    "FIG": "822<",
+    "FIGTumbling": "22<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front full-full pike",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4,
+      "TUM": 3.4
+    },
+    "FIG": "822<",
+    "FIGTumbling": ".22<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-Full straight",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 3.6
+    },
+    "FIG": "822/",
+    "FIGTumbling": "22/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front full-full straight",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 3.6
+    },
+    "FIG": "822/",
+    "FIGTumbling": ".22/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Rudi-in tuck",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.8
+    },
+    "FIG": "83-o",
+    "FIGTumbling": ".3-o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "3/2-in back tuck",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.8
+    },
+    "FIG": "83-o",
+    "FIGTumbling": "3-o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Rudi-in pike",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 3.6,
+      "TUM": 3
+    },
+    "FIG": "83-<",
+    "FIGTumbling": ".3-<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "3/2-in back pike",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 3.6,
+      "TUM": 3
+    },
+    "FIG": "83-<",
+    "FIGTumbling": "3-<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Rudi-in straight",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.2
+    },
+    "FIG": "83-/",
+    "FIGTumbling": ".3-/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "3/2-in back straight",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.2
+    },
+    "FIG": "83-/",
+    "FIGTumbling": "3-/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Rudi-out tuck",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.8
+    },
+    "FIG": "8-3o",
+    "FIGTumbling": ".-3o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "3/2-out back tuck",
+    "DD": {
+      "TRI": 1.3,
+      "DMT": 3.2,
+      "TUM": 2.8
+    },
+    "FIG": "8-3o",
+    "FIGTumbling": "-3o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Rudi-out pike",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 3.6,
+      "TUM": 3
+    },
+    "FIG": "8-3<",
+    "FIGTumbling": ".-3<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "3/2-out back pike",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 3.6,
+      "TUM": 3
+    },
+    "FIG": "8-3<",
+    "FIGTumbling": "-3<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Rudi-out straight",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.2
+    },
+    "FIG": "8-3/",
+    "FIGTumbling": ".-3/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "3/2-out back straight",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.2
+    },
+    "FIG": "8-3/",
+    "FIGTumbling": "-3/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Double full out tuck",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 3.2
+    },
+    "FIG": "8-4o",
+    "FIGTumbling": "-4o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front double full out tuck",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 3.2
+    },
+    "FIG": "8-4o",
+    "FIGTumbling": ".-4o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Double full out pike",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4,
+      "TUM": 3.4
+    },
+    "FIG": "8-4<",
+    "FIGTumbling": "-4<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front double full out pike",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4,
+      "TUM": 3.4
+    },
+    "FIG": "8-4<",
+    "FIGTumbling": ".-4<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Double full out straight",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 3.6
+    },
+    "FIG": "8-4/",
+    "FIGTumbling": "-4/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front double full out straight",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 3.6
+    },
+    "FIG": "8-4/",
+    "FIGTumbling": ".-4/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-rudi tuck",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 3.2
+    },
+    "FIG": "813o",
+    "FIGTumbling": "13o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-rudi pike",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4,
+      "TUM": 3.4
+    },
+    "FIG": "813<",
+    "FIGTumbling": "13<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-rudi straight",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 3.6
+    },
+    "FIG": "813/",
+    "FIGTumbling": "13/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-full tuck",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 3.2
+    },
+    "FIG": "831o",
+    "FIGTumbling": "31o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-full pike",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4,
+      "TUM": 3.4
+    },
+    "FIG": "831<",
+    "FIGTumbling": "31<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full straight",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 3.6
+    },
+    "FIG": "831/",
+    "FIGTumbling": "31/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Double full in tuck",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 3.2
+    },
+    "FIG": "84-o",
+    "FIGTumbling": "4-o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front double full in tuck",
+    "DD": {
+      "TRI": 1.4,
+      "DMT": 3.6,
+      "TUM": 3.2
+    },
+    "FIG": "84-o",
+    "FIGTumbling": ".4-o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Double full in pike",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4,
+      "TUM": 3.4
+    },
+    "FIG": "84-<",
+    "FIGTumbling": "4-<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front double full in pike",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4,
+      "TUM": 3.4
+    },
+    "FIG": "84-<",
+    "FIGTumbling": ".4-<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Double full in straight",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 3.6
+    },
+    "FIG": "84-/",
+    "FIGTumbling": "4-/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front double full in straight",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 3.6
+    },
+    "FIG": "84-/",
+    "FIGTumbling": ".4-/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Randi-in tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "85-o",
+    "FIGTumbling": ".5-o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "5/2-in back tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "85-o",
+    "FIGTumbling": "5-o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Randi-in pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "85-<",
+    "FIGTumbling": ".5-<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "5/2-in back pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "85-<",
+    "FIGTumbling": "5-<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Randi-in straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "85-/",
+    "FIGTumbling": ".5-/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "5/2-in back straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "85-/",
+    "FIGTumbling": "5-/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "841o",
+    "FIGTumbling": ".41o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "841o",
+    "FIGTumbling": "41o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "841<",
+    "FIGTumbling": ".41<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "841<",
+    "FIGTumbling": "41<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "841/",
+    "FIGTumbling": ".41/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "841/",
+    "FIGTumbling": "41/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "832o",
+    "FIGTumbling": ".32o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "832o",
+    "FIGTumbling": "32o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "832<",
+    "FIGTumbling": ".32<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "832<",
+    "FIGTumbling": "32<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "832/",
+    "FIGTumbling": ".32/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "832/",
+    "FIGTumbling": "32/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "823o",
+    "FIGTumbling": ".23o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "823o",
+    "FIGTumbling": "23o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "823<",
+    "FIGTumbling": ".23<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "823<",
+    "FIGTumbling": "23<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "823/",
+    "FIGTumbling": ".23/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "823/",
+    "FIGTumbling": "23/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "814o",
+    "FIGTumbling": ".14o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "814o",
+    "FIGTumbling": "14o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "814<",
+    "FIGTumbling": ".14<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "814<",
+    "FIGTumbling": "14<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-rudi straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "814/",
+    "FIGTumbling": ".14/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-3/2 straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "814/",
+    "FIGTumbling": "14/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Randi-out tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "8-5o",
+    "FIGTumbling": ".-5o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "5/2-out back tuck",
+    "DD": {
+      "TRI": 1.5,
+      "DMT": 4,
+      "TUM": 3.8
+    },
+    "FIG": "8-5o",
+    "FIGTumbling": "-5o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Randi-out pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "8-5<",
+    "FIGTumbling": ".-5<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "5/2-out back pike",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.4,
+      "TUM": 4
+    },
+    "FIG": "8-5<",
+    "FIGTumbling": "-5<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Randi-out straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "8-5/",
+    "FIGTumbling": ".-5/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "5/2-out back straight",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 4.2
+    },
+    "FIG": "8-5/",
+    "FIGTumbling": "-5/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 2.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Half-randi tuck",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 4.4
+    },
+    "FIG": "815o",
+    "FIGTumbling": "15o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-randi pike",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 4.8,
+      "TUM": 4.6
+    },
+    "FIG": "815<",
+    "FIGTumbling": "15<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-randi straight",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 4.8
+    },
+    "FIG": "815/",
+    "FIGTumbling": "15/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Miller tuck",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 4.4
+    },
+    "FIG": "824o",
+    "FIGTumbling": "24o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front miller tuck",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 4.4
+    },
+    "FIG": "824o",
+    "FIGTumbling": ".24o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller pike",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 4.8,
+      "TUM": 4.6
+    },
+    "FIG": "824<",
+    "FIGTumbling": "24<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front miller pike",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 4.8,
+      "TUM": 4.6
+    },
+    "FIG": "824<",
+    "FIGTumbling": ".24<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller straight",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 4.8
+    },
+    "FIG": "824/",
+    "FIGTumbling": "24/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front miller straight",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 4.8
+    },
+    "FIG": "824/",
+    "FIGTumbling": ".24/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller tuck",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 4.4
+    },
+    "FIG": "833o",
+    "FIGTumbling": "33o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front miller tuck",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 4.4
+    },
+    "FIG": "833o",
+    "FIGTumbling": ".33o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Miller pike",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 4.8,
+      "TUM": 4.6
+    },
+    "FIG": "833<",
+    "FIGTumbling": "33<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front miller pike",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 4.8,
+      "TUM": 4.6
+    },
+    "FIG": "833<",
+    "FIGTumbling": ".33<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Miller straight",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 4.8
+    },
+    "FIG": "833/",
+    "FIGTumbling": "33/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front miller straight",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 4.8
+    },
+    "FIG": "833/",
+    "FIGTumbling": ".33/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Miller tuck",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 4.4
+    },
+    "FIG": "842o",
+    "FIGTumbling": "42o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front miller tuck",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 4.4
+    },
+    "FIG": "842o",
+    "FIGTumbling": ".42o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller pike",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 4.8,
+      "TUM": 4.6
+    },
+    "FIG": "842<",
+    "FIGTumbling": "42<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front miller pike",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 4.8,
+      "TUM": 4.6
+    },
+    "FIG": "842<",
+    "FIGTumbling": ".42<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller straight",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 4.8
+    },
+    "FIG": "842/",
+    "FIGTumbling": "42/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front miller straight",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 4.8
+    },
+    "FIG": "842/",
+    "FIGTumbling": ".42/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller tuck",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 4.4
+    },
+    "FIG": "851o",
+    "FIGTumbling": "51o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front miller tuck",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.4,
+      "TUM": 4.4
+    },
+    "FIG": "851o",
+    "FIGTumbling": ".51o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller pike",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 4.8,
+      "TUM": 4.6
+    },
+    "FIG": "851<",
+    "FIGTumbling": "51<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front miller pike",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 4.8,
+      "TUM": 4.6
+    },
+    "FIG": "851<",
+    "FIGTumbling": ".51<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller straight",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 4.8
+    },
+    "FIG": "851/",
+    "FIGTumbling": "51/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front miller straight",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 4.8
+    },
+    "FIG": "851/",
+    "FIGTumbling": ".51/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-randi tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 5.2
+    },
+    "FIG": "825o",
+    "FIGTumbling": ".25o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Vachon tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 5.2
+    },
+    "FIG": "825o",
+    "FIGTumbling": "25o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-randi pike",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.2,
+      "TUM": 5.4
+    },
+    "FIG": "825<",
+    "FIGTumbling": ".25<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Vachon pike",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.2,
+      "TUM": 5.4
+    },
+    "FIG": "825<",
+    "FIGTumbling": "25<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-randi straight",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.6,
+      "TUM": 5.6
+    },
+    "FIG": "825/",
+    "FIGTumbling": ".25/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Vachon straight",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.6,
+      "TUM": 5.6
+    },
+    "FIG": "825/",
+    "FIGTumbling": "25/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-randi tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 5.2
+    },
+    "FIG": "834o",
+    "FIGTumbling": ".34o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Vachon tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 5.2
+    },
+    "FIG": "834o",
+    "FIGTumbling": "34o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-randi pike",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.2,
+      "TUM": 5.4
+    },
+    "FIG": "834<",
+    "FIGTumbling": ".34<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Vachon pike",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.2,
+      "TUM": 5.4
+    },
+    "FIG": "834<",
+    "FIGTumbling": "34<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-randi straight",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.6,
+      "TUM": 5.6
+    },
+    "FIG": "834/",
+    "FIGTumbling": ".34/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Vachon straight",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.6,
+      "TUM": 5.6
+    },
+    "FIG": "834/",
+    "FIGTumbling": "34/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-randi tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 5.2
+    },
+    "FIG": "843o",
+    "FIGTumbling": ".43o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Vachon tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 5.2
+    },
+    "FIG": "843o",
+    "FIGTumbling": "43o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-randi pike",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.2,
+      "TUM": 5.4
+    },
+    "FIG": "843<",
+    "FIGTumbling": ".43<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Vachon pike",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.2,
+      "TUM": 5.4
+    },
+    "FIG": "843<",
+    "FIGTumbling": "43<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-randi straight",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.6,
+      "TUM": 5.6
+    },
+    "FIG": "843/",
+    "FIGTumbling": ".43/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Vachon straight",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.6,
+      "TUM": 5.6
+    },
+    "FIG": "843/",
+    "FIGTumbling": "43/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-randi tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 5.2
+    },
+    "FIG": "852o",
+    "FIGTumbling": ".52o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Vachon tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 4.8,
+      "TUM": 5.2
+    },
+    "FIG": "852o",
+    "FIGTumbling": "52o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-randi pike",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.2,
+      "TUM": 5.4
+    },
+    "FIG": "852<",
+    "FIGTumbling": ".52<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Vachon pike",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.2,
+      "TUM": 5.4
+    },
+    "FIG": "852<",
+    "FIGTumbling": "52<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Full-randi straight",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.6,
+      "TUM": 5.6
+    },
+    "FIG": "852/",
+    "FIGTumbling": ".52/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Vachon straight",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.6,
+      "TUM": 5.6
+    },
+    "FIG": "852/",
+    "FIGTumbling": "52/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 3.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 6
+    },
+    "FIG": "826o",
+    "FIGTumbling": "26o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 6
+    },
+    "FIG": "826o",
+    "FIGTumbling": ".26o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.6,
+      "TUM": 6.2
+    },
+    "FIG": "826<",
+    "FIGTumbling": "26<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.6,
+      "TUM": 6.2
+    },
+    "FIG": "826<",
+    "FIGTumbling": ".26<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 6.4
+    },
+    "FIG": "826/",
+    "FIGTumbling": "26/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 6.4
+    },
+    "FIG": "826/",
+    "FIGTumbling": ".26/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 6
+    },
+    "FIG": "835o",
+    "FIGTumbling": "35o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 6
+    },
+    "FIG": "835o",
+    "FIGTumbling": ".35o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.6,
+      "TUM": 6.2
+    },
+    "FIG": "835<",
+    "FIGTumbling": "35<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.6,
+      "TUM": 6.2
+    },
+    "FIG": "835<",
+    "FIGTumbling": ".35<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 6.4
+    },
+    "FIG": "835/",
+    "FIGTumbling": "35/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 6.4
+    },
+    "FIG": "835/",
+    "FIGTumbling": ".35/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 6
+    },
+    "FIG": "844o",
+    "FIGTumbling": "44o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 6
+    },
+    "FIG": "844o",
+    "FIGTumbling": ".44o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.6,
+      "TUM": 6.2
+    },
+    "FIG": "844<",
+    "FIGTumbling": "44<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.6,
+      "TUM": 6.2
+    },
+    "FIG": "844<",
+    "FIGTumbling": ".44<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 6.4
+    },
+    "FIG": "844/",
+    "FIGTumbling": "44/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 6.4
+    },
+    "FIG": "844/",
+    "FIGTumbling": ".44/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 6
+    },
+    "FIG": "853o",
+    "FIGTumbling": "53o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 6
+    },
+    "FIG": "853o",
+    "FIGTumbling": ".53o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.6,
+      "TUM": 6.2
+    },
+    "FIG": "853<",
+    "FIGTumbling": "53<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.6,
+      "TUM": 6.2
+    },
+    "FIG": "853<",
+    "FIGTumbling": ".53<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 6.4
+    },
+    "FIG": "853/",
+    "FIGTumbling": "53/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 6.4
+    },
+    "FIG": "853/",
+    "FIGTumbling": ".53/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 6
+    },
+    "FIG": "862o",
+    "FIGTumbling": "62o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.2,
+      "TUM": 6
+    },
+    "FIG": "862o",
+    "FIGTumbling": ".62o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.6,
+      "TUM": 6.2
+    },
+    "FIG": "862<",
+    "FIGTumbling": "62<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.6,
+      "TUM": 6.2
+    },
+    "FIG": "862<",
+    "FIGTumbling": ".62<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 6.4
+    },
+    "FIG": "862/",
+    "FIGTumbling": "62/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 4,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 6.4
+    },
+    "FIG": "862/",
+    "FIGTumbling": ".62/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 4,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus Plus tuck",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 7.6
+    },
+    "FIG": "855o",
+    "FIGTumbling": "55o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 5,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus Plus tuck",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6,
+      "TUM": 7.6
+    },
+    "FIG": "855o",
+    "FIGTumbling": ".55o",
+    "shape": "o",
+    "flips": 2,
+    "twists": 5,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus Plus pike",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 6.4,
+      "TUM": 7.8
+    },
+    "FIG": "855<",
+    "FIGTumbling": "55<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 5,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus Plus pike",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 6.4,
+      "TUM": 7.8
+    },
+    "FIG": "855<",
+    "FIGTumbling": ".55<",
+    "shape": "<",
+    "flips": 2,
+    "twists": 5,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Miller Plus Plus straight",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 6.8,
+      "TUM": 8
+    },
+    "FIG": "855/",
+    "FIGTumbling": "55/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 5,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front Miller Plus Plus straight",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 6.8,
+      "TUM": 8
+    },
+    "FIG": "855/",
+    "FIGTumbling": ".55/",
+    "shape": "/",
+    "flips": 2,
+    "twists": 5,
+    "direction": "forward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Triple tuck",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.5,
+      "TUM": 4.5
+    },
+    "FIG": "12---o",
+    "FIGTumbling": "---o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triple front tuck",
+    "DD": {
+      "TRI": 1.6,
+      "DMT": 4.5,
+      "TUM": 4.5
+    },
+    "FIG": "12---o",
+    "FIGTumbling": ".---o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Triple pike",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.3,
+      "TUM": 5.1
+    },
+    "FIG": "12---<",
+    "FIGTumbling": "---<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triple front pike",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 5.3,
+      "TUM": 5.1
+    },
+    "FIG": "12---<",
+    "FIGTumbling": ".---<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Triple straight",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 6.1,
+      "TUM": 5.7
+    },
+    "FIG": "12---/",
+    "FIGTumbling": "---/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triple front straight",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 6.1,
+      "TUM": 5.7
+    },
+    "FIG": "12---/",
+    "FIGTumbling": ".---/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-in triple tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 5.1,
+      "TUM": 5.4
+    },
+    "FIG": "121--o",
+    "FIGTumbling": ".1--o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Arabian Triple Front tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 5.1,
+      "TUM": 5.4
+    },
+    "FIG": "121--o",
+    "FIGTumbling": "1--o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-in triple pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.9,
+      "TUM": 6
+    },
+    "FIG": "121--<",
+    "FIGTumbling": ".1--<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Arabian Triple Front pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.9,
+      "TUM": 6
+    },
+    "FIG": "121--<",
+    "FIGTumbling": "1--<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-in triple straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6.7,
+      "TUM": 6.6
+    },
+    "FIG": "121--/",
+    "FIGTumbling": ".1--/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Arabian Triple Front straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6.7,
+      "TUM": 6.6
+    },
+    "FIG": "121--/",
+    "FIGTumbling": "1--/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Fliffus-in  tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 5.1,
+      "TUM": 5.4
+    },
+    "FIG": "12-1-o",
+    "FIGTumbling": ".-1-o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Fliffus-in  pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.9,
+      "TUM": 6
+    },
+    "FIG": "12-1-<",
+    "FIGTumbling": ".-1-<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Fliffus-in  straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6.7,
+      "TUM": 6.6
+    },
+    "FIG": "12-1-/",
+    "FIGTumbling": ".-1-/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triff tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 5.1,
+      "TUM": 5.4
+    },
+    "FIG": "12--1o",
+    "FIGTumbling": ".--1o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triple back half-out tuck",
+    "DD": {
+      "TRI": 1.7,
+      "DMT": 5.1,
+      "TUM": 5.4
+    },
+    "FIG": "12--1o",
+    "FIGTumbling": "--1o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Triff pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.9,
+      "TUM": 6
+    },
+    "FIG": "12--1<",
+    "FIGTumbling": ".--1<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triple back half-out pike",
+    "DD": {
+      "TRI": 2,
+      "DMT": 5.9,
+      "TUM": 6
+    },
+    "FIG": "12--1<",
+    "FIGTumbling": "--1<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Triff straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6.7,
+      "TUM": 6.6
+    },
+    "FIG": "12--1/",
+    "FIGTumbling": ".--1/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Triple back half-out straight",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6.7,
+      "TUM": 6.6
+    },
+    "FIG": "12--1/",
+    "FIGTumbling": "--1/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 0.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": false,
+    "normal": false
+  },
+  {
+    "name": "Half-half-in tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.7,
+      "TUM": 6.3
+    },
+    "FIG": "1211-o",
+    "FIGTumbling": "11-o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-half-in pike",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 6.5,
+      "TUM": 6.9
+    },
+    "FIG": "1211-<",
+    "FIGTumbling": "11-<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-half-in straight",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 7.3,
+      "TUM": 7.5
+    },
+    "FIG": "1211-/",
+    "FIGTumbling": "11-/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Half-triff tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.7,
+      "TUM": 6.3
+    },
+    "FIG": "121-1o",
+    "FIGTumbling": "1-1o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-triff pike",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 6.5,
+      "TUM": 6.9
+    },
+    "FIG": "121-1<",
+    "FIGTumbling": "1-1<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-triff straight",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 7.3,
+      "TUM": 7.5
+    },
+    "FIG": "121-1/",
+    "FIGTumbling": "1-1/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-half-out tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.7,
+      "TUM": 6.3
+    },
+    "FIG": "12-11o",
+    "FIGTumbling": "-11o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Half-half-out pike",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 6.5,
+      "TUM": 6.9
+    },
+    "FIG": "12-11<",
+    "FIGTumbling": "-11<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Half-half-out straight",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 7.3,
+      "TUM": 7.5
+    },
+    "FIG": "12-11/",
+    "FIGTumbling": "-11/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Full-in triple tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.7,
+      "TUM": 6.3
+    },
+    "FIG": "122--o",
+    "FIGTumbling": "2--o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in triple front tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.7,
+      "TUM": 6.3
+    },
+    "FIG": "122--o",
+    "FIGTumbling": ".2--o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-in triple pike",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 6.5,
+      "TUM": 6.9
+    },
+    "FIG": "122--<",
+    "FIGTumbling": "2--<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in triple front pike",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 6.5,
+      "TUM": 6.9
+    },
+    "FIG": "122--<",
+    "FIGTumbling": ".2--<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-in triple straight",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 7.3,
+      "TUM": 7.5
+    },
+    "FIG": "122--/",
+    "FIGTumbling": "2--/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in triple front straight",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 7.3,
+      "TUM": 7.5
+    },
+    "FIG": "122--/",
+    "FIGTumbling": ".2--/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Back-full-back tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.7,
+      "TUM": 6.3
+    },
+    "FIG": "12-2-o",
+    "FIGTumbling": "-2-o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Back-full-back pike",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 6.5,
+      "TUM": 6.9
+    },
+    "FIG": "12-2-<",
+    "FIGTumbling": "-2-<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Back-full-back straight",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 7.3,
+      "TUM": 7.5
+    },
+    "FIG": "12-2-/",
+    "FIGTumbling": "-2-/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": false,
+    "normal": true
+  },
+  {
+    "name": "Front-full-half tuck",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 6.3,
+      "TUM": 7.5
+    },
+    "FIG": "12-21o",
+    "FIGTumbling": ".-21o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front-full-half pike",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.1,
+      "TUM": 8.1
+    },
+    "FIG": "12-21<",
+    "FIGTumbling": ".-21<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front-full-half straight",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.9,
+      "TUM": 8.7
+    },
+    "FIG": "12-21/",
+    "FIGTumbling": ".-21/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-out triple tuck",
+    "DD": {
+      "TRI": 1.8,
+      "DMT": 5.7,
+      "TUM": 6.3
+    },
+    "FIG": "12--2o",
+    "FIGTumbling": "--2o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-out triple pike",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 6.5,
+      "TUM": 6.9
+    },
+    "FIG": "12--2<",
+    "FIGTumbling": "--2<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-out triple straight",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 7.3,
+      "TUM": 7.5
+    },
+    "FIG": "12--2/",
+    "FIGTumbling": "--2/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triff Rudi-out tuck",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 6.3,
+      "TUM": 7.5
+    },
+    "FIG": "12--3o",
+    "FIGTumbling": ".--3o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triff Rudi-out pike",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.1,
+      "TUM": 8.1
+    },
+    "FIG": "12--3<",
+    "FIGTumbling": ".--3<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triff Rudi-out straight",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.9,
+      "TUM": 8.7
+    },
+    "FIG": "12--3/",
+    "FIGTumbling": ".--3/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-front-half tuck",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 6.3,
+      "TUM": 7.5
+    },
+    "FIG": "122-1o",
+    "FIGTumbling": ".2-1o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in triple half out tuck",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 6.3,
+      "TUM": 7.5
+    },
+    "FIG": "122-1o",
+    "FIGTumbling": "2-1o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-front-half pike",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.1,
+      "TUM": 8.1
+    },
+    "FIG": "122-1<",
+    "FIGTumbling": ".2-1<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in triple half out pike",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.1,
+      "TUM": 8.1
+    },
+    "FIG": "122-1<",
+    "FIGTumbling": "2-1<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Full-front-half straight",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.9,
+      "TUM": 8.7
+    },
+    "FIG": "122-1/",
+    "FIGTumbling": ".2-1/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in triple half out straight",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.9,
+      "TUM": 8.7
+    },
+    "FIG": "122-1/",
+    "FIGTumbling": "2-1/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "backward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Half-half-half tuck",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 6.3,
+      "TUM": 7.5
+    },
+    "FIG": "12111o",
+    "FIGTumbling": ".111o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-half-half pike",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.1,
+      "TUM": 8.1
+    },
+    "FIG": "12111<",
+    "FIGTumbling": ".111<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-half-half straight",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.9,
+      "TUM": 8.7
+    },
+    "FIG": "12111/",
+    "FIGTumbling": ".111/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-half-in tuck",
+    "DD": {
+      "TRI": 1.9,
+      "DMT": 6.3,
+      "TUM": 7.5
+    },
+    "FIG": "1221-o",
+    "FIGTumbling": ".21-o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-half-in pike",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.1,
+      "TUM": 8.1
+    },
+    "FIG": "1221-<",
+    "FIGTumbling": ".21-<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-half-in straight",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 7.9,
+      "TUM": 8.7
+    },
+    "FIG": "1221-/",
+    "FIGTumbling": ".21-/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-in tuck",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6.9,
+      "TUM": 8.7
+    },
+    "FIG": "1222-o",
+    "FIGTumbling": "22-o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-in pike",
+    "DD": {
+      "TRI": 2.3,
+      "DMT": 7.7,
+      "TUM": 9.3
+    },
+    "FIG": "1222-<",
+    "FIGTumbling": "22-<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-in straight",
+    "DD": {
+      "TRI": 2.3,
+      "DMT": 8.5,
+      "TUM": 9.9
+    },
+    "FIG": "1222-/",
+    "FIGTumbling": "22-/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-back-full tuck",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6.9,
+      "TUM": 8.7
+    },
+    "FIG": "122-2o",
+    "FIGTumbling": "2-2o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-back-full pike",
+    "DD": {
+      "TRI": 2.3,
+      "DMT": 7.7,
+      "TUM": 9.3
+    },
+    "FIG": "122-2<",
+    "FIGTumbling": "2-2<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-back-full straight",
+    "DD": {
+      "TRI": 2.3,
+      "DMT": 8.5,
+      "TUM": 9.9
+    },
+    "FIG": "122-2/",
+    "FIGTumbling": "2-2/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-out tuck",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6.9,
+      "TUM": 8.7
+    },
+    "FIG": "12-22o",
+    "FIGTumbling": "-22o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-out pike",
+    "DD": {
+      "TRI": 2.3,
+      "DMT": 7.7,
+      "TUM": 9.3
+    },
+    "FIG": "12-22<",
+    "FIGTumbling": "-22<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-out straight",
+    "DD": {
+      "TRI": 2.3,
+      "DMT": 8.5,
+      "TUM": 9.9
+    },
+    "FIG": "12-22/",
+    "FIGTumbling": "-22/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-triff-rudi tuck",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6.9,
+      "TUM": 8.7
+    },
+    "FIG": "121-3o",
+    "FIGTumbling": "1-3o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-triff-rudi pike",
+    "DD": {
+      "TRI": 2.3,
+      "DMT": 7.7,
+      "TUM": 9.3
+    },
+    "FIG": "121-3<",
+    "FIGTumbling": "1-3<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-triff-rudi straight",
+    "DD": {
+      "TRI": 2.3,
+      "DMT": 8.5,
+      "TUM": 9.9
+    },
+    "FIG": "121-3/",
+    "FIGTumbling": "1-3/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "3/2-in triff tuck",
+    "DD": {
+      "TRI": 2,
+      "DMT": 6.9,
+      "TUM": 8.7
+    },
+    "FIG": "123-1o",
+    "FIGTumbling": "3-1o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "3/2-in triff pike",
+    "DD": {
+      "TRI": 2.3,
+      "DMT": 7.7,
+      "TUM": 9.3
+    },
+    "FIG": "123-1<",
+    "FIGTumbling": "3-1<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "3/2-in triff straight",
+    "DD": {
+      "TRI": 2.3,
+      "DMT": 8.5,
+      "TUM": 9.9
+    },
+    "FIG": "123-1/",
+    "FIGTumbling": "3-1/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 2,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-front-rudi tuck",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 7.5,
+      "TUM": 9.9
+    },
+    "FIG": "122-3o",
+    "FIGTumbling": ".2-3o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-front-rudi pike",
+    "DD": {
+      "TRI": 2.4,
+      "DMT": 8.3,
+      "TUM": 10.5
+    },
+    "FIG": "122-3<",
+    "FIGTumbling": ".2-3<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-front-rudi straight",
+    "DD": {
+      "TRI": 2.4,
+      "DMT": 9.1,
+      "TUM": 11.1
+    },
+    "FIG": "122-3/",
+    "FIGTumbling": ".2-3/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front-full-rudi tuck",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 7.5,
+      "TUM": 9.9
+    },
+    "FIG": "12-23o",
+    "FIGTumbling": ".-23o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front-full-rudi pike",
+    "DD": {
+      "TRI": 2.4,
+      "DMT": 8.3,
+      "TUM": 10.5
+    },
+    "FIG": "12-23<",
+    "FIGTumbling": ".-23<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Front-full-rudi straight",
+    "DD": {
+      "TRI": 2.4,
+      "DMT": 9.1,
+      "TUM": 11.1
+    },
+    "FIG": "12-23/",
+    "FIGTumbling": ".-23/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triff-randi tuck",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 7.5,
+      "TUM": 9.9
+    },
+    "FIG": "12--5o",
+    "FIGTumbling": ".--5o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triff-randi pike",
+    "DD": {
+      "TRI": 2.4,
+      "DMT": 8.3,
+      "TUM": 10.5
+    },
+    "FIG": "12--5<",
+    "FIGTumbling": ".--5<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Triff-randi straight",
+    "DD": {
+      "TRI": 2.4,
+      "DMT": 9.1,
+      "TUM": 11.1
+    },
+    "FIG": "12--5/",
+    "FIGTumbling": ".--5/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-half tuck",
+    "DD": {
+      "TRI": 2.1,
+      "DMT": 7.5,
+      "TUM": 9.9
+    },
+    "FIG": "12221o",
+    "FIGTumbling": ".221o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-half pike",
+    "DD": {
+      "TRI": 2.4,
+      "DMT": 8.3,
+      "TUM": 10.5
+    },
+    "FIG": "12221<",
+    "FIGTumbling": ".221<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-half straight",
+    "DD": {
+      "TRI": 2.4,
+      "DMT": 9.1,
+      "TUM": 11.1
+    },
+    "FIG": "12221/",
+    "FIGTumbling": ".221/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 2.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-full tuck",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 8.1,
+      "TUM": 11.1
+    },
+    "FIG": "12222o",
+    "FIGTumbling": "222o",
+    "shape": "o",
+    "flips": 3,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-full pike",
+    "DD": {
+      "TRI": 2.5,
+      "DMT": 8.9,
+      "TUM": 11.7
+    },
+    "FIG": "12222<",
+    "FIGTumbling": "222<",
+    "shape": "<",
+    "flips": 3,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-full-full straight",
+    "DD": {
+      "TRI": 2.5,
+      "DMT": 9.7,
+      "TUM": 12.3
+    },
+    "FIG": "12222/",
+    "FIGTumbling": "222/",
+    "shape": "/",
+    "flips": 3,
+    "twists": 3,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Quadruple tuck",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 8,
+      "TUM": 8
+    },
+    "FIG": "16----o",
+    "FIGTumbling": "----o",
+    "shape": "o",
+    "flips": 4,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Quadruple front tuck",
+    "DD": {
+      "TRI": 2.2,
+      "DMT": 8,
+      "TUM": 8
+    },
+    "FIG": "16----o",
+    "FIGTumbling": ".----o",
+    "shape": "o",
+    "flips": 4,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Quadruple pike",
+    "DD": {
+      "TRI": 2.6,
+      "DMT": 9.6,
+      "TUM": 9.2
+    },
+    "FIG": "16----<",
+    "FIGTumbling": "----<",
+    "shape": "<",
+    "flips": 4,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Quadruple front pike",
+    "DD": {
+      "TRI": 2.6,
+      "DMT": 9.6,
+      "TUM": 9.2
+    },
+    "FIG": "16----<",
+    "FIGTumbling": ".----<",
+    "shape": "<",
+    "flips": 4,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Quadruple straight",
+    "DD": {
+      "TRI": 2.6,
+      "DMT": 10.4,
+      "TUM": 8
+    },
+    "FIG": "16----/",
+    "FIGTumbling": "----/",
+    "shape": "/",
+    "flips": 4,
+    "twists": 0,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Quadruple front straight",
+    "DD": {
+      "TRI": 2.6,
+      "DMT": 10.4,
+      "TUM": 8
+    },
+    "FIG": "16----/",
+    "FIGTumbling": ".----/",
+    "shape": "/",
+    "flips": 4,
+    "twists": 0,
+    "direction": "forward",
+    "blind": true,
+    "dominant": true,
+    "normal": false
+  },
+  {
+    "name": "Quadriffus tuck",
+    "DD": {
+      "TRI": 2.3,
+      "DMT": 8.8,
+      "TUM": 8
+    },
+    "FIG": "16---1o",
+    "FIGTumbling": ".---1o",
+    "shape": "o",
+    "flips": 4,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Quadriffus pike",
+    "DD": {
+      "TRI": 2.7,
+      "DMT": 10.4,
+      "TUM": 9.2
+    },
+    "FIG": "16---1<",
+    "FIGTumbling": ".---1<",
+    "shape": "<",
+    "flips": 4,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Quadriffus straight",
+    "DD": {
+      "TRI": 2.7,
+      "DMT": 11.2,
+      "TUM": 8
+    },
+    "FIG": "16---1/",
+    "FIGTumbling": ".---1/",
+    "shape": "/",
+    "flips": 4,
+    "twists": 0.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Quadriffus-rudi tuck",
+    "DD": {
+      "TRI": 2.5,
+      "DMT": 10.4,
+      "TUM": 8
+    },
+    "FIG": "16---3o",
+    "FIGTumbling": ".---3o",
+    "shape": "o",
+    "flips": 4,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Quadriffus-rudi pike",
+    "DD": {
+      "TRI": 2.9,
+      "DMT": 12,
+      "TUM": 9.2
+    },
+    "FIG": "16---3<",
+    "FIGTumbling": ".---3<",
+    "shape": "<",
+    "flips": 4,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Quadriffus-rudi straight",
+    "DD": {
+      "TRI": 2.9,
+      "DMT": 12.8,
+      "TUM": 8
+    },
+    "FIG": "16---3/",
+    "FIGTumbling": ".---3/",
+    "shape": "/",
+    "flips": 4,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-front-front-half tuck",
+    "DD": {
+      "TRI": 2.5,
+      "DMT": 10.4,
+      "TUM": 8
+    },
+    "FIG": "162--1o",
+    "FIGTumbling": ".2--1o",
+    "shape": "o",
+    "flips": 4,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-front-front-half pike",
+    "DD": {
+      "TRI": 2.9,
+      "DMT": 12,
+      "TUM": 9.2
+    },
+    "FIG": "162--1<",
+    "FIGTumbling": ".2--1<",
+    "shape": "<",
+    "flips": 4,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-front-front-half straight",
+    "DD": {
+      "TRI": 2.9,
+      "DMT": 12.8,
+      "TUM": 8
+    },
+    "FIG": "162--1/",
+    "FIGTumbling": ".2--1/",
+    "shape": "/",
+    "flips": 4,
+    "twists": 1.5,
+    "direction": "forward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in quadruple tuck",
+    "DD": {
+      "TRI": 2.4,
+      "DMT": 9.6,
+      "TUM": 8
+    },
+    "FIG": "162---o",
+    "FIGTumbling": "2---o",
+    "shape": "o",
+    "flips": 4,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in quadruple pike",
+    "DD": {
+      "TRI": 2.8,
+      "DMT": 11.2,
+      "TUM": 9.2
+    },
+    "FIG": "162---<",
+    "FIGTumbling": "2---<",
+    "shape": "<",
+    "flips": 4,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Full-in quadruple straight",
+    "DD": {
+      "TRI": 2.8,
+      "DMT": 12,
+      "TUM": 8
+    },
+    "FIG": "162---/",
+    "FIGTumbling": "2---/",
+    "shape": "/",
+    "flips": 4,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-quadriffus tuck",
+    "DD": {
+      "TRI": 2.4,
+      "DMT": 9.6,
+      "TUM": 12.5
+    },
+    "FIG": "161---1o",
+    "FIGTumbling": "1---1o",
+    "shape": "o",
+    "flips": 4,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-quadriffus pike",
+    "DD": {
+      "TRI": 2.8,
+      "DMT": 11.2,
+      "TUM": 14
+    },
+    "FIG": "161---1<",
+    "FIGTumbling": "1---1<",
+    "shape": "<",
+    "flips": 4,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  },
+  {
+    "name": "Half-quadriffus straight",
+    "DD": {
+      "TRI": 2.8,
+      "DMT": 12,
+      "TUM": 12.5
+    },
+    "FIG": "161---1/",
+    "FIGTumbling": "1---1/",
+    "shape": "/",
+    "flips": 4,
+    "twists": 1,
+    "direction": "backward",
+    "blind": false,
+    "dominant": true,
+    "normal": true
+  }
+]

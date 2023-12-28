@@ -17,7 +17,15 @@
   // TODO: make all these depend on event
   $: videos = findVideoSkill(skillData.FIG, $currentEvent);
   $: namedRoutines = $skillDB.getNamedRoutines(skillData.FIG, $currentEvent);
-  $: sameDD = $skillDB.getSkillsByDD(skillData.doubleMiniDD, $currentEvent);
+  $: sameDD = $skillDB.getSkillsByDD(skillData.DD[$currentEvent], $currentEvent).filter(
+        (skill) => skill.normal && skill.dominant
+      ).map((skill) => {
+        return {
+          name: skill.name,
+          FIG: skill.FIG,
+        };
+      });
+
 </script>
 
 <!-- Title Section -->
@@ -41,9 +49,8 @@
   <section>
     <h2>Same DD</h2>
     <SameDDGrid
-      skillData={sameDD.filter(
-        (skill) => skill.type === "regular" && skill.dominant
-      )}
+      skillData={sameDD
+      }
     ></SameDDGrid>
   </section>
 {/if}

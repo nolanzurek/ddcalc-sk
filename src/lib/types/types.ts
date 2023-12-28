@@ -6,9 +6,11 @@ import type { Direction } from "./enums";
 export type Skill = {
   name: string;
 
-  trampolineDD: number;
-  doubleMiniDD: number;
-  tumblingDD: number;
+  DD: {
+    TRI: number;
+    DMT: number;
+    TUM: number;
+  };
 
   FIG: string;
   FIGTumbling: string;
@@ -22,8 +24,8 @@ export type Skill = {
 
   // TODO: implement these when they are added to the DB
 
-  // dominant: boolean;
-  // normal: boolean;
+  dominant: boolean;
+  normal: boolean;
 };
 
 export type SkillPreview = {
@@ -31,9 +33,11 @@ export type SkillPreview = {
   FIG: string;
   FIGTumbling: string;
 
-  trampolineDD: number;
-  doubleMiniDD: number;
-  tumblingDD: number;
+  DD: {
+    TRI: number;
+    DMT: number;
+    TUM: number;
+  };
 };
 
 // ROUTINE TYPES
@@ -41,9 +45,11 @@ export type SkillPreview = {
 export type Routine = {
   name: string;
 
-  trampolineDD: number;
-  doubleMiniDD: number;
-  tumblingDD: number;
+  DD: {
+    TRI: number;
+    DMT: number;
+    TUM: number;
+  };
 
   totalTwists: number;
   totalFlips: number;
@@ -56,19 +62,25 @@ export type RoutinePreview = {
   name: string;
   skillFIGs: string[];
 
-  trampolineDD: number;
-  doubleMiniDD: number;
-  tumblingDD: number;
+  DD: {
+    TRI: number;
+    DMT: number;
+    TUM: number;
+  };
 };
 
 export type RoutineSet = {
-  totalTrampolineDD: number;
-  totalDoubleMiniDD: number;
-  totalTumblingDD: number;
+  totalDD: {
+    TRI: number;
+    DMT: number;
+    TUM: number;
+  };
 
-  averageTrampolineDD: number;
-  averageDoubleMiniDD: number;
-  averageTumblingDD: number;
+  averageDD: {
+    TRI: number;
+    DMT: number;
+    TUM: number;
+  };
 
   numRoutines: number;
   routines: Routine[];
@@ -105,9 +117,6 @@ export type SkillVideo = {
 
 // TODO: this name sucks
 // export type DisplayDataType = Skill | Routine | RoutineSet
-
-export type RawSkillData = String[];
-
 export type InputDataType = Skill | Routine | RoutineSet | undefined;
 
 // todo: make a fig type with assertions about the string

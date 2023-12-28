@@ -2,9 +2,9 @@
   import { Tabs, Tab, TabContent } from "carbon-components-svelte";
   import Youtube from "svelte-youtube-embed";
 
-  import type { RoutineVideo } from "$lib/types/types";
+  import type { RoutineVideo, SkillVideo } from "$lib/types/types";
 
-  export let videos: RoutineVideo[];
+  export let videos: RoutineVideo[] | SkillVideo[];
 </script>
 
 <!-- TODO: fix the title styling! -->
