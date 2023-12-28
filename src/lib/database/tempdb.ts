@@ -154,7 +154,20 @@ export default class skillDB {
     // total dd, total flips, total twists
     // generate a name using the generate name functions to be implemented later
 
-    const skills: Skill[] = input.map((el) => this.generateSkill(el, event));
+    let skills: Skill[] = input.map((el) => this.generateSkill(el, event));
+
+    // guard statement for blind landing edge cases for DMT
+    if (event === Event.DoubleMini) {
+      if (skills[0].direction === Direction.Forward) {
+        skills[1] = this.generateSkill(
+          skills[1].FIG,
+          event,
+          Direction.Backward
+        );
+      } else if (skills[0].direction === Direction.Backward) {
+        skills[1] = this.generateSkill(skills[1].FIG, event, Direction.Forward);
+      }
+    }
 
     return {
       // TODO: use the naming function for this
@@ -203,10 +216,15 @@ export default class skillDB {
     };
   }
 
-  getNamedRoutines(input: string, event: Event) {
+  getNamedRoutines(input: string, event: Event, direction: Direction) {
     switch (event) {
       case Event.DoubleMini:
-        return namedRoutines.filter((el) => el.skills.includes(input));
+        return namedRoutines.filter(
+          (el) =>
+            el.skills.includes(input) &&
+            el.skills.indexOf(input) ===
+              (direction === Direction.Forward ? 1 : 0)
+        );
       default:
         return [];
     }

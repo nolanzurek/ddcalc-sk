@@ -22,7 +22,7 @@
   $: videos = findVideoSkill(skillData.FIG, $currentEvent, currentDirection);
   $: namedRoutines = $skillDB.getNamedRoutines(skillData.FIG, $currentEvent);
   $: sameDD = $skillDB.getSkillsByDD(skillData.DD[$currentEvent], $currentEvent).filter(
-        (skill) => skill.normal && skill.dominant
+        (skill) =>  skill.dominant
       ).map((skill) => {
         return {
           name: skill.name,
