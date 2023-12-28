@@ -20,7 +20,7 @@
   );
   // TODO: make all these depend on event
   $: videos = findVideoSkill(skillData.FIG, $currentEvent, currentDirection);
-  $: namedRoutines = $skillDB.getNamedRoutines(skillData.FIG, $currentEvent);
+  $: namedRoutines = $skillDB.getNamedRoutines(skillData.FIG, $currentEvent, currentDirection);
   $: sameDD = $skillDB.getSkillsByDD(skillData.DD[$currentEvent], $currentEvent).filter(
         (skill) =>  skill.dominant
       ).map((skill) => {

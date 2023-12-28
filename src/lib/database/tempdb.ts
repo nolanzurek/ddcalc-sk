@@ -223,7 +223,7 @@ export default class skillDB {
           (el) =>
             el.skills.includes(input) &&
             el.skills.indexOf(input) ===
-              (direction === Direction.Forward ? 1 : 0)
+              (direction === Direction.Forward ? 0 : 1)
         );
       default:
         return [];
