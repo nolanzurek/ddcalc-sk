@@ -58,8 +58,8 @@
       <SideNavMenuItem href="/" text="Link 2" />
       <SideNavMenuItem href="/" text="Link 3" />
     </SideNavMenu> -->
-    <!-- <SideNavLink text="Skill filter search" />
-    <SideNavLink text="Tracking table" /> -->
+    <SideNavLink text="Skill filter search" href="/filterSearch" />
+    <!-- <SideNavLink text="Tracking table" /> -->
     <SideNavLink href="/about" text="About" />
   </SideNavItems>
 </SideNav>

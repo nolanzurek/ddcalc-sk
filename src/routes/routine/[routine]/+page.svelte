@@ -22,7 +22,10 @@
     routineData.skills.map((el) => el.FIG).join(" "),
     $currentEvent
   );
-  $: sameDD = $skillDB.getRoutinesByDD(routineData.DD[$currentEvent], $currentEvent);
+  $: sameDD = $skillDB.getRoutinesByDD(
+    routineData.DD[$currentEvent],
+    $currentEvent
+  );
 </script>
 
 <!-- Title Section -->

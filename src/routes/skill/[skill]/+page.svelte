@@ -20,23 +20,30 @@
   );
   // TODO: make all these depend on event
   $: videos = findVideoSkill(skillData.FIG, $currentEvent, currentDirection);
-  $: namedRoutines = $skillDB.getNamedRoutines(skillData.FIG, $currentEvent, currentDirection);
-  $: sameDD = $skillDB.getSkillsByDD(skillData.DD[$currentEvent], $currentEvent).filter(
-        (skill) =>  skill.dominant
-      ).map((skill) => {
-        return {
-          name: skill.name,
-          FIG: skill.FIG,
-        };
-      });
-
+  $: namedRoutines = $skillDB.getNamedRoutines(
+    skillData.FIG,
+    $currentEvent,
+    currentDirection
+  );
+  $: sameDD = $skillDB
+    .getSkillsByDD(skillData.DD[$currentEvent], $currentEvent)
+    .filter((skill) => skill.dominant)
+    .map((skill) => {
+      return {
+        name: skill.name,
+        FIG: skill.FIG,
+      };
+    });
 </script>
 
 <!-- Title Section -->
 
 <section>
-  <SkillTitleSection {skillData} currentEvent={$currentEvent} bind:currentDirection={currentDirection}
-  ></SkillTitleSection>
+  <SkillTitleSection
+    {skillData}
+    currentEvent={$currentEvent}
+    bind:currentDirection
+  />
 </section>
 
 <!-- Videos Section -->
@@ -52,10 +59,7 @@
 {#if sameDD}
   <section>
     <h2>Same DD</h2>
-    <SameDDGrid
-      skillData={sameDD
-      }
-    ></SameDDGrid>
+    <SameDDGrid skillData={sameDD} />
   </section>
 {/if}
 
@@ -64,7 +68,7 @@
 {#if namedRoutines.length > 0}
   <section>
     <h2>Notable Routines</h2>
-    <NotableRoutinesGrid routineData={namedRoutines}></NotableRoutinesGrid>
+    <NotableRoutinesGrid routineData={namedRoutines} />
   </section>
 {/if}
 

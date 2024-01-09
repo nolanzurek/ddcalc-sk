@@ -121,3 +121,5 @@ export type InputDataType = Skill | Routine | RoutineSet | undefined;
 
 // todo: make a fig type with assertions about the string
 // todo: make a type for the youtube video stuff
+
+export type SkillFilterFunction = (skill: Skill) => boolean;
