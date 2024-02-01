@@ -28,3 +28,10 @@
 {#if videos && videos.length === 1}
   <Youtube id={videos[0].id} animations={false} />
 {/if}
+
+<style>
+  /* css for title display */
+  :global(.v__title) {
+    display: none;
+  }
+</style>

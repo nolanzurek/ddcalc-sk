@@ -50,6 +50,7 @@
 - add percentages to match count for filters
 - improve performance of filter matching by returning the number of results after each iterations (change to "filter removals")
 - have some cool color conditional formatting for relative DD for skill/routine cards
+- remove all the skill display types and just pass the whole skill data in there -> all references, so shouldn't add overhead and makes displaying more types of data easier
 
 ## OLD
 
@@ -151,3 +152,18 @@ add more types
 
 implement routine page and data (possibly more data types)
 look into inheritance for components (i.e. tramp routine vs routine, if there are possibly additional things that are required in tramp routine, like repetition counter)
+
+# Before V1
+
+- split "same dd" into normal and not normal routines
+  - only display normal routines on the routine page
+  - "see more" button on the routine page that takes you to the same dd page
+- make the same dd page fetch data from the URL -> we can link to it
+- add search bar to navbar at top of screen so that search can be done anywhere
+- add all the skill videos we have at the moment
+- video library page with search
+- more on the about page
+- paste fig notation description from readme from other repo into a page
+- sort videos of routines by execution and limit them to 5, with a "view all" link to the video library
+- don't display the title text with the video -> global css?
+- get suggestions for mobile skill/routine page and make it look nicer

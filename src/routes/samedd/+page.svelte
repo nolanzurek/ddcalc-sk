@@ -58,6 +58,11 @@
 </section>
 
 <style>
+  @font-face {
+    font-family: "Computer Modern";
+    src: url("http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf");
+  }
+
   #input-section {
     display: flex;
     flex-direction: row;
@@ -80,8 +85,7 @@
   }
 
   #math {
-    font-family: "computer-modern", "times new roman", times, serif;
-    font-weight: bold;
+    font-family: "Computer Modern", serif;
   }
 
   @media (max-width: 600px) {
