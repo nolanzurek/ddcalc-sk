@@ -12,6 +12,13 @@
   technical information for trampoline gymnastics. Learn more about us on our
   <a href="/about">about page</a>.
 </p>
+<p>
+  Familiar with FIG trampoline notation? Try entering a skill in FIG below, or a
+  bunch of skills (separated by spaces or commas) to form a routine. Not
+  familiar with FIG notation? Try using the <a href="/filterSearch"
+    >filter search page</a
+  > to search for skills
+</p>
 <InputBar></InputBar>
 <p></p>
 

@@ -1,5 +1,6 @@
 <script lang="ts">
   import { Tile } from "carbon-components-svelte";
+  import { goto } from "$app/navigation";
   export let data: {
     title: string;
     subtitle: string;
@@ -9,8 +10,18 @@
 
 <div id="tileGridContent">
   {#each data as datum}
-    <a href={datum.link} style="color:black; text-decoration:none">
-      <Tile style="height:100%">
+    <a
+      href={datum.link}
+      style="color:black; text-decoration:none"
+      on:click={//use goto
+      (e) => {
+        if (datum.link) {
+          e.preventDefault();
+          goto(datum.link);
+        }
+      }}
+    >
+      <Tile style="height:100%;">
         <p style="font-weight:bold">{datum.title}</p>
         <p>{datum.subtitle}</p>
       </Tile></a

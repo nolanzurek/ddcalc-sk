@@ -123,3 +123,5 @@ export type InputDataType = Skill | Routine | RoutineSet | undefined;
 // todo: make a type for the youtube video stuff
 
 export type SkillFilterFunction = (skill: Skill) => boolean;
+
+// filter

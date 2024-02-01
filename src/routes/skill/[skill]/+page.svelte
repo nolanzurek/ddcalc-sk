@@ -11,19 +11,26 @@
 
   import type { Direction } from "$lib/types/enums";
 
+  //import onmount
+  import { onMount } from "svelte";
+
   export let data;
-  let currentDirection: Direction;
+
   $: skillData = $skillDB.generateSkill(
     decodeURIComponent(data.skill),
     $currentEvent,
-    currentDirection
+    data.direction
   );
   // TODO: make all these depend on event
-  $: videos = findVideoSkill(skillData.FIG, $currentEvent, currentDirection);
+  $: videos = findVideoSkill(
+    skillData.FIG,
+    $currentEvent,
+    data.direction || skillData.direction
+  );
   $: namedRoutines = $skillDB.getNamedRoutines(
     skillData.FIG,
     $currentEvent,
-    currentDirection
+    data.direction || skillData.direction
   );
   $: sameDD = $skillDB
     .getSkillsByDD(skillData.DD[$currentEvent], $currentEvent)
@@ -32,6 +39,7 @@
       return {
         name: skill.name,
         FIG: skill.FIG,
+        direction: skill.direction,
       };
     });
 </script>
@@ -39,11 +47,7 @@
 <!-- Title Section -->
 
 <section>
-  <SkillTitleSection
-    {skillData}
-    currentEvent={$currentEvent}
-    bind:currentDirection
-  />
+  <SkillTitleSection {skillData} currentEvent={$currentEvent} />
 </section>
 
 <!-- Videos Section -->

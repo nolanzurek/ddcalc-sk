@@ -1,14 +1,13 @@
 <script lang="ts">
-  import { Tag , Dropdown } from "carbon-components-svelte";
+  import { Tag, Dropdown } from "carbon-components-svelte";
   import { Direction, type Event } from "$lib/types/enums";
   import getDDByEvent from "../../../src/lib/functions/util/getDDByEvent";
   import shapeEnumToText from "$lib/functions/util/shapeEnumToText";
   import type { Skill } from "$lib/types/types";
+  import { goto } from "$app/navigation";
 
   export let skillData: Skill;
   export let currentEvent: Event;
-
-  export let currentDirection: Direction = skillData.direction;
 </script>
 
 <!-- TODO: abstract all of the ternaries into functions -->
@@ -20,8 +19,21 @@
   <div id="titleAndTags">
     <div id="titleAndDirectionDropdown">
       <h1><strong>{skillData.name}</strong></h1>
-      <Dropdown bind:selectedId={currentDirection} items={[{id: Direction.Forward, text: "Forward"}, {id: Direction.Backward, text: "Backward"}]}
-      type="inline" />
+      <Dropdown
+        bind:selectedId={skillData.direction}
+        on:select={(e) => {
+          goto(
+            `/skill/${
+              e.detail.selectedId === Direction.Forward ? "f" : "b"
+            }${encodeURIComponent(skillData.FIG)}`
+          );
+        }}
+        items={[
+          { id: Direction.Forward, text: "Forward" },
+          { id: Direction.Backward, text: "Backward" },
+        ]}
+        type="inline"
+      />
     </div>
     <h2><strong>{skillData.FIG}</strong></h2>
     <div id="tags">

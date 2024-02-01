@@ -1,4 +1,9 @@
-import type { Skill, Routine, RoutineSet } from "../types/types";
+import type {
+  Skill,
+  Routine,
+  RoutineSet,
+  SkillFilterFunction,
+} from "../types/types";
 import { InputType, Shape, Direction, Event } from "../types/enums";
 import { getInputType } from "../functions/util/getInputType";
 
@@ -287,5 +292,12 @@ export default class skillDB {
           skills: el.skills,
         };
       });
+  }
+  getSkillsByFilter(filters: SkillFilterFunction[]): Skill[] {
+    let result: Skill[] = skillDB.data;
+    filters.forEach((skillFilter) => {
+      result = result.filter(skillFilter);
+    });
+    return result;
   }
 }

@@ -1,9 +1,11 @@
 <script lang="ts">
   import TileGrid from "./util/TileGrid.svelte";
+  import { Direction } from "$lib/types/enums";
 
   export let skillData: {
     name: string;
     FIG: string;
+    direction: Direction;
   }[];
 </script>
 
@@ -12,7 +14,9 @@
     return {
       title: el.FIG,
       subtitle: el.name,
-      link: `/skill/${encodeURIComponent(el.FIG)}`,
+      link: `/skill/${
+        el.direction ? (el.direction === Direction.Forward ? "f" : "b") : ""
+      }${encodeURIComponent(el.FIG)}`,
     };
   })}
 ></TileGrid>

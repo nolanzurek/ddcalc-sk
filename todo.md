@@ -41,9 +41,15 @@
 - default lang ts?
 - coordinate all the weird types used for display and whatever routines, seems like there's random types everywhere and nothing is super consistant
 - "FIG name" for routine other than joining everything everywhere
-- link forward/backward/blind input thing to the skill lookup so that the right video gets displayed
 - add things to .d.ts so that they are available everywhere
-- bug: clicking on "same dd" cards in tumbling mode forces input with non-tumbling fig strings
+- use the actual spacing API with carbon design to space components instead of CSS
+- is there a way to standardize the
+  - spacing using carbon design css variables?
+  - responsive layouts using carbon design?
+- add coloring to filter matches to indicate relative size
+- add percentages to match count for filters
+- improve performance of filter matching by returning the number of results after each iterations (change to "filter removals")
+- have some cool color conditional formatting for relative DD for skill/routine cards
 
 ## OLD
 
