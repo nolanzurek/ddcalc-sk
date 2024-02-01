@@ -22,13 +22,13 @@
 </script>
 
 <div id="title-container">
-  <h1>Skill Search</h1>
+  <h1>Search Routines by DD</h1>
   <Tooltip>
     <p>
-      Only double mini routines are supported at the moment. <strong
-        ><sub>350</sub>P<sub>10</sub></strong
+      Only double mini routines are supported at the moment. <span id="math"
+        ><sub>~350</sub>P<sub>10</sub></span
       > is, like, gigantic; generating tumbling and trampoline routines requires
-      more creativity
+      more creativity and algorithms know-how
     </p>
   </Tooltip>
 </div>
@@ -50,7 +50,9 @@
     }}>Search</Button
   >
 </section>
-
+{#if sameDD.length !== 0}
+  <p>{sameDD.length} results</p>
+{/if}
 <section>
   <RoutineGrid routineData={sameDD} />
 </section>
@@ -74,7 +76,12 @@
   }
 
   sub {
-    font-size: 0.8em;
+    font-size: 0.9em;
+  }
+
+  #math {
+    font-family: "computer-modern", "times new roman", times, serif;
+    font-weight: bold;
   }
 
   @media (max-width: 600px) {
