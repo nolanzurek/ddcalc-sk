@@ -26,6 +26,8 @@
       <Button
         size="field"
         on:click={() => {
+          console.log(flips, twists);
+          console.log(enumerateNormalSkills(flips, twists));
           result = enumerateNormalSkills(flips, twists);
           flips = twists = undefined; // assignment return values my beloved
         }}>Generate</Button
@@ -41,7 +43,10 @@
         {`${skill.length * 4}${skill.reduce((a, b) => "" + a + b).replaceAll("0", "-")}`}
       </p> -->
       <p>
-        {JSON.stringify(skill)}
+        {JSON.stringify(result)}
+      </p>
+      <p>
+        {result.length}
       </p>
     {/each}
   {/if}

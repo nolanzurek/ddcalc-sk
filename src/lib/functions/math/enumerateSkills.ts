@@ -40,9 +40,6 @@ export function enumerateNormalSkills(flips: number, twists: number) {
   }
 }
 
-console.log(enumerateNormalSkills(3, 1));
-console.log(enumerateSkillsHelper(3, 0));
-
 // general recursive helper function that computes all possible multisets
 // summing to twists with flips elements
 // applied in all the functions
