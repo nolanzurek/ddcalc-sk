@@ -43,18 +43,12 @@ export function enumerateNormalSkills(flips: number, twists: number) {
 // general recursive helper function that computes all possible multisets
 // summing to twists with flips elements
 // applied in all the functions
-function enumerateSkillsHelper(
-  flips: number,
-  twists: number,
-  acc: number[][] = [[]]
-): number[][] {
+function enumerateSkillsHelper(flips: number, twists: number): number[][] {
   if (flips === 1) {
     // only one flip left, so the twists must all be in that last flip
-    // return acc.map((el) => el.concat([twists]));
     return [[twists]];
   } else if (twists === 0) {
     // no twists left, so the flips must all have 0 twists
-    // return acc.map((el) => el.concat(new Array(flips).fill(0)));
     return [new Array(flips).fill(0)];
   } else {
     // recursive case: we take the cartesian product of
@@ -62,10 +56,7 @@ function enumerateSkillsHelper(
     // the possible ends of the skills (recursive call)
     let result: number[][] = [];
     for (let i: number = 0; i <= twists; i++) {
-      const recursiveSkills = enumerateSkillsHelper(
-        flips - 1,
-        twists - i /*, acc */
-      );
+      const recursiveSkills = enumerateSkillsHelper(flips - 1, twists - i);
       for (const end in recursiveSkills) {
         result.push([i].concat(recursiveSkills[end]));
       }
