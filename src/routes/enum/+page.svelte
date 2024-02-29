@@ -7,7 +7,7 @@
     Tile,
   } from "carbon-components-svelte";
 
-  import enumerateAllSkills from "$lib/functions/math/enumerateSkills";
+  import { enumerateNormalSkills } from "$lib/functions/math/enumerateSkills";
 
   let flips: number;
   let twists: number;
@@ -26,7 +26,7 @@
       <Button
         size="field"
         on:click={() => {
-          result = enumerateAllSkills(flips, twists);
+          result = enumerateNormalSkills(flips, twists);
           flips = twists = undefined; // assignment return values my beloved
         }}>Generate</Button
       >
@@ -37,8 +37,11 @@
   <h1>Results</h1>
   {#if result}
     {#each result as skill}
-      <p>
+      <!-- <p>
         {`${skill.length * 4}${skill.reduce((a, b) => "" + a + b).replaceAll("0", "-")}`}
+      </p> -->
+      <p>
+        {JSON.stringify(skill)}
       </p>
     {/each}
   {/if}

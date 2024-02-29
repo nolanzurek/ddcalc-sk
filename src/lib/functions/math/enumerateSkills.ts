@@ -12,26 +12,36 @@ export function enumerateAllSkills(flips: number, twists: number) {
 
 export function enumerateNormalSkills(flips: number, twists: number) {
   // backwards skill
-  if ((twists * 2) % 2 == 0) {
-    return enumerateSkillsHelper(flips, (twists - 1) / 2)
+  if (twists % 1 === 0) {
+    // we call enumerate skills helper with "twists" since
+    // for a normal skill, the (possibly, depending on direction) first and last
+    // flips have 1+n*0.5 twists, so we can just subtract 1 from the twists
+    // and the rest have some n twists
+    // this checks out, but in case I have to debug it, I need to explain what I'm doing
+    twists -= 1;
+    return enumerateSkillsHelper(flips, twists)
       .map((skill) => skill.map((twist) => twist * 2))
       .map((skill) => {
         const modifiedSkill = [...skill];
-        modifiedSkill[0] += 0.5;
-        modifiedSkill[modifiedSkill.length - 1] += 0.5;
+        modifiedSkill[0] += 1;
+        modifiedSkill[modifiedSkill.length - 1] += 1;
         return modifiedSkill;
       });
     // forward skill
   } else {
-    return enumerateSkillsHelper(flips, (twists - 0.5) / 2)
+    twists = twists - 0.5;
+    return enumerateSkillsHelper(flips, twists)
       .map((skill) => skill.map((twist) => twist * 2))
       .map((skill) => {
         const modifiedSkill = [...skill];
-        modifiedSkill[modifiedSkill.length - 1] += 0.5;
+        modifiedSkill[modifiedSkill.length - 1] += 1;
         return modifiedSkill;
       });
   }
 }
+
+console.log(enumerateNormalSkills(3, 1));
+console.log(enumerateSkillsHelper(3, 0));
 
 // general recursive helper function that computes all possible multisets
 // summing to twists with flips elements
