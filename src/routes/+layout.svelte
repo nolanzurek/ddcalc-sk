@@ -60,6 +60,7 @@
     </SideNavMenu> -->
     <SideNavLink text="Search Skills by Property" href="/filterSearch" />
     <SideNavLink text="Generate Routines by DD" href="/samedd" />
+    <SideNavLink text="Enumerate skills" href="/enum" />
     <!-- <SideNavLink text="Tracking table" /> -->
     <SideNavLink href="/about" text="About" />
   </SideNavItems>
