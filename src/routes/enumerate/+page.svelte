@@ -9,6 +9,8 @@
 
   import { enumerateNormalSkills , enumerateAllSkills } from "$lib/functions/math/enumerateSkills";
 
+  import FIGNotationChip from "../../lib/components/FIGNotationChip.svelte";
+
   let flips: number;
   let twists: number;
 
@@ -41,14 +43,12 @@
       {#if normalResults} 
       <h3>"Normal" Skills</h3>
         {#each normalResults as skill}
-          <p>
-            {`${skill.length * 4}${skill.length === 1 ? skill[0] : skill.reduce((a, b) => "" + a + b).replaceAll("0", "-")}`}
-          </p>
+          <FIGNotationChip flips={skill.length} twists={skill}/>
         {/each}
         <h3>All Skills</h3>
         {#each allResults as skill}
           <p>
-            {`${skill.length * 4}${skill.length === 1 ? skill[0] : skill.reduce((a, b) => "" + a + b).replaceAll("0", "-")}`}
+            <FIGNotationChip flips={skill.length} twists={skill}/>
           </p>
         {/each}
       {/if}
