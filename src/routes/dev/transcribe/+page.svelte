@@ -42,7 +42,10 @@ after loading the playlist pages (each page has 30 videos), it's blazingly fast 
     if (e.key === "Enter") {
       const info = e.target.value.split(" ");
       entry["skills"] = [info[0], info[1]];
-      entry["score"] = info[2];
+      // old score entry here since the scoring system changed in 2022
+      // since 2022 and 2023 have been transcribed, we just use the old system
+      // old scores get converted to new scores for the sake of sorting by execution
+      entry["scoreOld"] = info[2];
       // console.log(entry);
       routinesIncluded.push(entry);
       localStorage.setItem("routines", JSON.stringify(routinesIncluded));
