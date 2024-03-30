@@ -4,6 +4,8 @@
 
   import type { RoutineVideo, SkillVideo } from "$lib/types/types";
 
+  import { getCountryEmoji } from "$lib/functions/display/getCountryInfo";
+
   export let videos: RoutineVideo[] | SkillVideo[];
 </script>
 
@@ -13,7 +15,7 @@
   <Tabs autoWidth type="container">
     {#each videos as video, i}
       <Tab
-        label={`${video.first_name} ${video.last_name} (${video.country})`}
+        label={`${video.first_name} ${video.last_name} ${getCountryEmoji(video.country) || ""}`}
       />
     {/each}
     <svelte:fragment slot="content">
