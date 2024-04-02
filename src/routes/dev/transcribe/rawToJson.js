@@ -16,17 +16,18 @@ let data = [];
 for (let i = 0; i < lines.length - 1; i++) {
   const line = lines[i];
   i++;
-  const titleData = lines[i].split(" ");
+  const titleData = lines[i].split(" ").toReversed();
   data.push({
     id: line,
-    last_name: titleData[0],
-    first_name: titleData[1],
-    country: titleData[2].substring(1, 4),
-    gender: titleData[3],
+    last_name:
+      (titleData.length > 15 ? titleData[15] + " " : "") + titleData[14],
+    first_name: titleData[13],
+    country: titleData[12].substring(1, 4),
+    gender: null,
     // this gets updated manually
-    event: "2019 Trampoline Worlds",
+    event: "2018 Trampoline Worlds",
     round:
-      titleData[titleData.length - 1] === "R1"
+      titleData[0] === "R1"
         ? "Qualification Exercise 1"
         : "Qualification Exercise 2",
   });

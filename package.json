@@ -23,6 +23,7 @@
 	"type": "module",
 	"dependencies": {
 		"carbon-icons-svelte": "^12.3.1",
+		"chart.js": "^4.4.2",
 		"svelte-youtube-embed": "^0.2.1"
 	}
 }

@@ -20,7 +20,6 @@
   > to search for skills
 </p>
 <InputBar></InputBar>
-<p></p>
 
 <style>
   h1,
