@@ -20,16 +20,26 @@ for (let i = 0; i < lines.length - 1; i++) {
   data.push({
     id: line,
     last_name:
-      (titleData.length > 15 ? titleData[15] + " " : "") + titleData[14],
-    first_name: titleData[13],
-    country: titleData[12].substring(1, 4),
+      lines[i].split(" ")[2].split("")[0] === "("
+        ? lines[i].split(" ")[0]
+        : lines[i].split(" ")[0] + " " + lines[i].split(" ")[1],
+    first_name:
+      lines[i].split(" ")[2].split("")[0] === "("
+        ? lines[i].split(" ")[1]
+        : lines[i].split(" ")[2],
+    country:
+      lines[i].split(" ")[2].split("")[0] === "("
+        ? lines[i].split(" ")[2].substring(1, 4)
+        : lines[i].split(" ")[3].substring(1, 4),
     gender: null,
     // this gets updated manually
-    event: "2018 Trampoline Worlds",
+    event: "2017 Trampoline Worlds",
     round:
-      titleData[0] === "R1"
+      titleData[0] === "1"
         ? "Qualification Exercise 1"
-        : "Qualification Exercise 2",
+        : titleData[0] === "2"
+        ? "Qualification Exercise 2"
+        : "",
   });
 }
 
