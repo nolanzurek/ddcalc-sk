@@ -10,7 +10,7 @@
     <span class="flip-digit">{flips * 4}</span>
     {#each twists as twist, i}
       <span
-        style={`background:hsl(${(360 * (totalTwists - twist)) / (totalTwists + 1) || 0} 100% 75% / ${0.5 + (0.5 * twist) / totalTwists});`}
+        style={`background:hsl(${(360 * (totalTwists - twist)) / (totalTwists + 1) || 0} 100% 75% / ${twist !== 0 ? 0.5 + (0.5 * twist) / totalTwists : 0});`}
         >{twist !== 0 ? twist : "-"}</span
       >
     {/each}</span
