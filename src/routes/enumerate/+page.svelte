@@ -7,7 +7,10 @@
     Tile,
   } from "carbon-components-svelte";
 
-  import { enumerateNormalSkills , enumerateAllSkills } from "$lib/functions/math/enumerateSkills";
+  import {
+    enumerateNormalSkills,
+    enumerateAllSkills,
+  } from "$lib/functions/math/enumerateSkills";
 
   import FIGNotationChip from "../../lib/components/FIGNotationChip.svelte";
 
@@ -39,19 +42,20 @@
 </section>
 <section>
   {#if allResults}
-    <h2>Results</h2>
-      {#if normalResults} 
-      <h3>"Normal" Skills</h3>
+    {#if normalResults}
+      <h2>"Normal" Skills</h2>
+      <div class="list-of-FIG-chips">
         {#each normalResults as skill}
-          <FIGNotationChip flips={skill.length} twists={skill}/>
+          <FIGNotationChip flips={skill.length} twists={skill} />
         {/each}
-        <h3>All Skills</h3>
+      </div>
+      <h2>All Skills</h2>
+      <div class="list-of-FIG-chips">
         {#each allResults as skill}
-          <p>
-            <FIGNotationChip flips={skill.length} twists={skill}/>
-          </p>
+          <FIGNotationChip flips={skill.length} twists={skill} />
         {/each}
-      {/if}
+      </div>
+    {/if}
   {/if}
 </section>
 
@@ -65,5 +69,12 @@
   section {
     margin-bottom: 30px;
     margin-top: 30px;
+  }
+
+  .list-of-FIG-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px 0px;
   }
 </style>

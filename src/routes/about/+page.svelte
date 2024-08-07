@@ -3,7 +3,7 @@
 </script>
 
 <h1>About the DD Calculator</h1>
-
+<br />
 <p>
   DDCalc.net is personal, solo development project. As such, I am always looking
   for suggestions for features, or really anything you think would make a good
@@ -11,15 +11,13 @@
   me at
   <a href="mailto:ddcalcnet@gmail.com"> ddcalcnet@gmail.com </a>
 </p>
+<br />
 <p>
   Please note that the site is still under development, so there may be bugs. If
   such a bug is severly impacting the user experience, it's likely that I
   already aware and working on it, but still feel free to send me an email.
 </p>
-
-<style>
-  h1,
-  p {
-    margin-bottom: 20px;
-  }
-</style>
+<br />
+<p>
+  I have outlined my <a href="/methodology">methodology</a> on a separate page.
+</p>

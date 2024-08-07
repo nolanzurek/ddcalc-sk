@@ -16,6 +16,7 @@
     Content,
   } from "carbon-components-svelte";
   import SettingsAdjust from "carbon-icons-svelte/lib/SettingsAdjust.svelte";
+  import Search from "carbon-icons-svelte/lib/Search.svelte";
 
   let isSideNavOpen = false;
   let isAppSwitcherOpen = false;
@@ -26,9 +27,10 @@
   <svelte:fragment slot="skip-to-content">
     <SkipToContent />
   </svelte:fragment>
-  <!-- <HeaderUtilities>
+  <HeaderUtilities>
+    <HeaderGlobalAction aria-label="Search" icon={Search} />
     <HeaderGlobalAction aria-label="Settings" icon={SettingsAdjust} />
-    <HeaderAction bind:isOpen={isSettingsOpen}>
+    <!-- <HeaderAction bind:isOpen={isSettingsOpen}>
       <HeaderPanelLinks>
         <HeaderPanelDivider>Switcher subject 1</HeaderPanelDivider>
         <HeaderPanelLink>Switcher item 1</HeaderPanelLink>
@@ -39,8 +41,8 @@
         <HeaderPanelLink>Switcher item 4</HeaderPanelLink>
         <HeaderPanelLink>Switcher item 5</HeaderPanelLink>
       </HeaderPanelLinks>
-    </HeaderAction>
-  </HeaderUtilities> -->
+    </HeaderAction> -->
+  </HeaderUtilities>
 </Header>
 
 <SideNav bind:isOpen={isSideNavOpen}>
@@ -58,11 +60,14 @@
       <SideNavMenuItem href="/" text="Link 2" />
       <SideNavMenuItem href="/" text="Link 3" />
     </SideNavMenu> -->
+    <!-- <SideNavLink text="Video Library" href="/videos" /> -->
     <SideNavLink text="Search Skills by Property" href="/filterSearch" />
     <SideNavLink text="Generate Routines by DD" href="/samedd" />
     <SideNavLink text="Enumerate skills" href="enumerate" />
     <!-- <SideNavLink text="Tracking table" /> -->
     <SideNavLink href="/about" text="About" />
+    <SideNavLink href="/methodology" text="Methodology" />
+    <SideNavLink href="/progress" text="Routine Progress" />
   </SideNavItems>
 </SideNav>
 
